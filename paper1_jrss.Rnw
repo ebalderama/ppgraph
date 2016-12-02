@@ -1,0 +1,334 @@
+\documentclass{statsoc}
+
+
+%======================================================%
+%-----------------------------------------------------------------------------------------------%
+%****************************************************************************%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+%  My Packages and Commands %
+
+%\usepackage{fullpage}
+\usepackage{setspace}
+\usepackage[left=1in,top=1in,right=1in]{geometry}
+\pdfpagewidth 8.5in
+\pdfpageheight 11in 
+\setlength{\textheight}{9in}
+
+
+% BIBLIOGRAPHY
+\usepackage[authoryear]{natbib}
+\bibpunct{(}{)}{;}{a}{}{,}
+%\linespread{1.5}
+
+\long\def\symbolfootnote[#1]#2{\begingroup%
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+
+
+\usepackage{amssymb, amsmath, blindtext, enumitem}
+
+
+%============================================
+%============================================
+%My New Commands
+%============================================
+\newcommand{\balpha}{\mbox{\boldmath $\alpha$} }
+\newcommand{\bbeta}{\mbox{\boldmath $\beta$} }
+\newcommand{\bdelta}{\mbox{\boldmath $\delta$} }
+\newcommand{\bepsilon}{\mbox{\boldmath $\epsilon$} }
+\newcommand{\bgamma}{\mbox{\boldmath $\gamma$} }
+\newcommand{\blambda}{\mbox{\boldmath $\lambda$} }
+\newcommand{\bmu}{\mbox{\boldmath $\mu$} }
+\newcommand{\bnu}{\mbox{\boldmath $\nu$} }
+\newcommand{\bomega}{\mbox{\boldmath $\omega$} }
+\newcommand{\bphi}{\mbox{\boldmath $\phi$} }
+\newcommand{\bpsi}{\mbox{\boldmath $\psi$} }
+\newcommand{\brho}{\mbox{\boldmath $\rho$} }
+\newcommand{\bsigma}{\mbox{\boldmath $\sigma$} }
+\newcommand{\btau}{\mbox{\boldmath $\tau$} }
+\newcommand{\btheta}{\mbox{\boldmath $\theta$} }
+\newcommand{\bupsilon}{\mbox{\boldmath $\upsilon$} }
+\newcommand{\bxi}{\mbox{\boldmath $\xi$} }
+\newcommand{\bzeta}{\mbox{\boldmath $\zeta$} }
+\newcommand{\bDelta}{\mbox{\boldmath $\Delta$} }
+\newcommand{\bGamma}{\mbox{\boldmath $\Gamma$} }
+\newcommand{\bLambda}{\mbox{\boldmath $\Lambda$} }
+\newcommand{\bPhi}{\mbox{\boldmath $\Phi$} }
+\newcommand{\bSigma}{\mbox{\boldmath $\Sigma$} }
+\newcommand{\bTheta}{\mbox{\boldmath $\Theta$} }
+
+\newcommand{\bfa}{\mbox{\bf a} }
+\newcommand{\bfb}{\mbox{\bf b} }
+\newcommand{\bfc}{\mbox{\bf c} }
+\newcommand{\bfd}{\mbox{\bf d} }
+\newcommand{\bfe}{\mbox{\bf e} }
+\newcommand{\bff}{\mbox{\bf f} }
+\newcommand{\bfg}{\mbox{\bf g} }
+\newcommand{\bfh}{\mbox{\bf h} }
+\newcommand{\bfi}{\mbox{\bf i} }
+\newcommand{\bfj}{\mbox{\bf j} }
+\newcommand{\bfk}{\mbox{\bf k} }
+\newcommand{\bfl}{\mbox{\bf l} }
+\newcommand{\bfm}{\mbox{\bf m} }
+\newcommand{\bfn}{\mbox{\bf n} }
+\newcommand{\bfo}{\mbox{\bf o} }
+\newcommand{\bfp}{\mbox{\bf p} }
+\newcommand{\bfq}{\mbox{\bf q} }
+\newcommand{\bfr}{\mbox{\bf r} }
+\newcommand{\bfs}{\mbox{\bf s} }
+\newcommand{\bft}{\mbox{\bf t} }
+\newcommand{\bfu}{\mbox{\bf u} }
+\newcommand{\bfv}{\mbox{\bf v} }
+\newcommand{\bfw}{\mbox{\bf w} }
+\newcommand{\bfx}{\mbox{\bf x} }
+\newcommand{\bfy}{\mbox{\bf y} }
+\newcommand{\bfz}{\mbox{\bf z} }
+\newcommand{\bfA}{\mbox{\bf A} }
+\newcommand{\bfB}{\mbox{\bf B} }
+\newcommand{\bfC}{\mbox{\bf C} }
+\newcommand{\bfD}{\mbox{\bf D} }
+\newcommand{\bfE}{\mbox{\bf E} }
+\newcommand{\bfF}{\mbox{\bf F} }
+\newcommand{\bfG}{\mbox{\bf G} }
+\newcommand{\bfH}{\mbox{\bf H} }
+\newcommand{\bfI}{\mbox{\bf I} }
+\newcommand{\bfJ}{\mbox{\bf J} }
+\newcommand{\bfK}{\mbox{\bf K} }
+\newcommand{\bfL}{\mbox{\bf L} }
+\newcommand{\bfM}{\mbox{\bf M} }
+\newcommand{\bfN}{\mbox{\bf N} }
+\newcommand{\bfO}{\mbox{\bf O} }
+\newcommand{\bfP}{\mbox{\bf P} }
+\newcommand{\bfQ}{\mbox{\bf Q} }
+\newcommand{\bfR}{\mbox{\bf R} }
+\newcommand{\bfS}{\mbox{\bf S} }
+\newcommand{\bfT}{\mbox{\bf T} }
+\newcommand{\bfU}{\mbox{\bf U} }
+\newcommand{\bfV}{\mbox{\bf V} }
+\newcommand{\bfW}{\mbox{\bf W} }
+\newcommand{\bfX}{\mbox{\bf X} }
+\newcommand{\bfY}{\mbox{\bf Y} }
+\newcommand{\bfZ}{\mbox{\bf Z} }
+
+\newcommand{\calA}{{\cal A}}
+\newcommand{\calB}{{\cal B}}
+\newcommand{\calC}{{\cal C}}
+\newcommand{\calD}{{\cal D}}
+\newcommand{\calE}{{\cal E}}
+\newcommand{\calF}{{\cal F}}
+\newcommand{\calG}{{\cal G}}
+\newcommand{\calH}{{\cal H}}
+\newcommand{\calI}{{\cal I}}
+\newcommand{\calJ}{{\cal J}}
+\newcommand{\calK}{{\cal K}}
+\newcommand{\calL}{{\cal L}}
+\newcommand{\calM}{{\cal M}}
+\newcommand{\calN}{{\cal N}}
+\newcommand{\calO}{{\cal O}}
+\newcommand{\calP}{{\cal P}}
+\newcommand{\calQ}{{\cal Q}}
+\newcommand{\calR}{{\cal R}}
+\newcommand{\calS}{{\cal S}}
+\newcommand{\calT}{{\cal T}}
+\newcommand{\calU}{{\cal U}}
+\newcommand{\calV}{{\cal V}}
+\newcommand{\calW}{{\cal W}}
+\newcommand{\calX}{{\cal X}}
+\newcommand{\calY}{{\cal Y}}
+\newcommand{\calZ}{{\cal Z}}
+
+\renewcommand{\Hat}{\widehat}
+\renewcommand{\Bar}{\overline}
+\renewcommand{\Tilde}{\widetilde}
+
+\newcommand{\iid}{\stackrel{iid}{\sim}}
+\newcommand{\indep}{\overset{ind}{\sim}}
+\newcommand{\argmax}{{\mathop{\rm arg\, max}}}
+\newcommand{\argmin}{{\mathop{\rm arg\, min}}}
+\newcommand{\Frechet}{ \mbox{Fr$\acute{\mbox{e}}$chet} }
+\newcommand{\Matern}{ \mbox{Mat$\acute{\mbox{e}}$rn} }
+
+\providecommand{\argmin}[1]{\underset{{#1}}{\rm \ argmin}} 
+\providecommand{\argmax}[1]{\underset{{#1}}{\rm \ argmax}} 
+
+\newcommand{\seteq}{\stackrel{set}{\ =\ }}
+
+\newcommand{\bfig}{\begin{figure}}
+\newcommand{\efig}{\end{figure}}
+\newcommand{\beqx}{\begin{equation*}}
+\newcommand{\eeqx}{\end{equation*}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqa}{\begin{eqnarray}}
+\newcommand{\eeqa}{\end{eqnarray}}
+\newcommand{\beqax}{\begin{eqnarray*}}
+\newcommand{\eeqax}{\end{eqnarray*}}
+\newcommand{\beqn}{\begin{dmath}}
+\newcommand{\eeqn}{\end{dmath}}
+\newcommand{\beqnx}{\begin{dmath*}}
+\newcommand{\eeqnx}{\end{dmath*}}
+
+\let\originalleft\left
+\let\originalright\right
+\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+\providecommand{\itbf}[1]{\textit{\textbf{#1}}} 
+\providecommand{\abs}[1]{\left\lvert#1\right\rvert} 
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\newcommand{\cond}{\,\left\vert\vphantom{}\right.}
+\newcommand{\Cond}{\,\Big\vert\vphantom{}\Big.}
+\newcommand{\COND}{\,\Bigg\vert\vphantom{}\Bigg.}
+
+\providecommand{\paren}[1]{\left(#1\right)} 
+\providecommand{\Paren}[1]{\Big(#1\Big)}
+\providecommand{\PAREN}[1]{\bigg(#1\bigg)} 
+\providecommand{\bracket}[1]{\left[ #1 \right]} 
+\providecommand{\Bracket}[1]{\Big[ #1 \Big]} 
+\providecommand{\BRACKET}[1]{\bigg[ #1 \bigg]} 
+\providecommand{\curlybrace}[1]{\left\{ #1 \right\}} 
+\providecommand{\Curlybrace}[1]{\Big\{ #1 \Big\}} 
+\providecommand{\CURLYBRACE}[1]{\bigg\{ #1 \bigg\}} 
+
+\newcommand{\Bern}{\mbox{{\sf Bern}}}
+\newcommand{\Bernoulli}{\mbox{{\sf Bernoulli}}}
+\newcommand{\Beta}{\mbox{{\sf Beta}}}
+\newcommand{\Bin}{\mbox{{\sf Bin}}}
+\newcommand{\Binomial}{\mbox{{\sf Binomial}}}
+\newcommand{\DE}{\mbox{{\sf DE}}}
+\newcommand{\Exponential}{\mbox{{\sf Exponential}}}
+\newcommand{\F}{\mbox{{\sf F}}}
+\newcommand{\Gam}{\mbox{{\sf Gamma}}}
+\newcommand{\GP}{\mbox{{\sf GP}}}
+\newcommand{\GPD}{\mbox{{\sf GPD}}}
+\newcommand{\Geom}{\mbox{{\sf Geom}}}
+\newcommand{\Geometric}{\mbox{{\sf Geometric}}}
+\newcommand{\HyperGeom}{\mbox{{\sf HyperGeom}}}
+\newcommand{\HyperGeometric}{\mbox{{\sf HyperGeometric}}}
+\newcommand{\InverseGam}{\mbox{{\sf InverseGamma}}}
+\newcommand{\InvWish}{\mbox{{\sf InvWish}}}
+\newcommand{\MVN}{\mbox{{\sf MVN}}}
+\newcommand{\NB}{\mbox{{\sf NB}}}
+\newcommand{\NegBin}{\mbox{{\sf NegBin}}}
+\newcommand{\NegativeBinomial}{\mbox{{\sf NegativeBinomial}}}
+\newcommand{\Normal}{\mbox{{\sf Normal}}}
+\newcommand{\Pois}{\mbox{{\sf Pois}}}
+\newcommand{\Poisson}{\mbox{{\sf Poisson}}}
+\newcommand{\Unif}{\mbox{{\sf Unif}}}
+\newcommand{\Uniform}{\mbox{{\sf Uniform}}}
+\newcommand{\Weibull}{\mbox{{\sf Weibull}}}
+
+\renewcommand{\P}{{\sf P}}
+\newcommand{\Prob}{{\sf Prob}}
+\newcommand{\median}{{\mathop{\rm median}}}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\V}{\mathsf{V}}
+\newcommand{\VAR}{\mathsf{VAR}}
+\newcommand{\COV}{\mathsf{COV}}
+
+\newcommand{\Ind}{\mathds{1}}
+\newcommand{\zerovect}{\mbox{\bf 0}}
+\newcommand{\onesvect}{\mbox{\bf 1}}
+\providecommand{\real}[1]{\mathbb{#1}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\ppd}{\mathcal{P}}
+\DeclareMathOperator{\logit}{logit}
+\DeclareMathOperator{\expit}{expit}
+\DeclareMathOperator{\dint}{\displaystyle\int}
+\DeclareMathOperator{\dsum}{\displaystyle\sum}
+
+%============================================
+%My New Commands
+%============================================
+%============================================
+
+
+\newcommand{\bitemize}{\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
+\newcommand{\eitemize}{\end{itemize}}
+\newcommand{\benum}{\begin{enumerate}\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
+\newcommand{\eenum}{\end{enumerate}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+%\lhead{\footnotesize \parbox{11cm}{Custom left-head-note} }
+\cfoot{}
+\lfoot{\footnotesize \parbox{11cm}{}}
+\rfoot{\footnotesize Page \thepage\ }
+%\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
+%\renewcommand\headheight{24pt}
+\renewcommand\footrulewidth{0.4pt}
+
+
+\usepackage[colorlinks=false,
+          %  pdfborder={0 0 0},
+            ]{hyperref}
+
+
+%  My Packages and Commands %
+%======================================================%
+%-----------------------------------------------------------------------------------------------%
+%****************************************************************************%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+%______________________________________________________%
+
+
+
+
+
+
+%============================================
+%============================================
+% PREAMBLE
+%============================================
+%============================================
+
+\title[Graphical modeling of seabird distributions]{Graphical modeling of seabird distributions}
+\author[Author 1 {\it et al.}]{Author 1}
+\address{Affiliation,
+City,
+         Country.}
+\email{Author@emailaddress.com}
+\author{Author 2}
+\address{Affiliation,
+         City,
+         Country.}
+         
+
+
+
+
+%============================================
+%============================================
+\begin{document}%\linenumbers
+%============================================
+%============================================
+
+
+
+%============================================
+\begin{abstract}
+  Graphical modeling of seabird distributions.
+\end{abstract}
+
+\keywords{Graphical modeling, Marked point process, Seabird distribution}
+%============================================
+
+
+
+%============================================
+\section{Introduction}
+%============================================
+
+
+%============================================
+\section{Methods}
+%============================================
+
+
+
+
+
+\end{document}
