@@ -1,2 +1,2 @@
 # ppgraph
-Graphical modeling of marked spatial point patterns applied to seabird distributions
+Exploring dependencies of multivariate seabird distributions: Linking graphicalmodels to social network analysis
