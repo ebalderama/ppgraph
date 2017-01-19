@@ -1,2 +1,2 @@
 # ppgraph
-Exploring dependencies of multivariate seabird distributions: Linking graphicalmodels to social network analysis
+Exploring dependencies of multivariate seabird distributions: Linking graphical models to social network analysis
