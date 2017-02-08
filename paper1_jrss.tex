@@ -1,6 +1,8 @@
 \documentclass{statsoc}
 \usepackage[]{graphicx}
 \usepackage[]{color}
+\let\proof\relax 
+\let\endproof\relax
 
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
@@ -372,7 +374,7 @@ City,
 
 %============================================
 \begin{abstract}
-  Graphical modeling of seabird distributions.
+  Graphical modeling of seabird distributions. Simultaneous estimation of conditional spatial interrelation for a subset of $79$ seabird species by means of a spatial dependence graph model (SDGM). Linkage to Social network analysis toolbox to detect the most influential species (in term of importance within the estimated SDGM)  
 \end{abstract}
 
 \keywords{Graphical modeling, Species importance, Marked point process, Network centrality measures, Seabird distribution}
@@ -386,6 +388,8 @@ City,
 
 \begin{itemize}
 \item We estimate the conditional spatial dependence structure between different seabird species
+\item that is, structural dependence between two patterns conditional on all remaining patterns
+\item so not interrelation between points $i$ and $j$, but interrelations between components $i$ and $j$ where $i$ and $j$ are sets of points within a bounded planar region.
 \item edges express the partial (pairwise) interrelation between two species conditional on al remaining species
 \item we omit to implement a formal test statistic as we assume that dependence might vary between species
 \item we set a threshold indicating weak/ intermediate partial effects
@@ -397,6 +401,10 @@ City,
 %============================================
 \section{Methods}
 %============================================
+
+Primary idea by \cite{Eckardt2016}, extension to multivariate spp with quantitative marks by \cite{Eckardt2016b}
+
+Analysis was carried out using the \texttt{sdgm} R package of \cite{Eckardt2016a}.
 
 %============================================
 \section{Data}
@@ -414,7 +422,7 @@ While some marine bird species such as various types of gulls have been sighted 
 
 %============================================
 \section{Results}
-============================================
+%============================================
 
 $\star$ in general: important for species conservation: e.g. black-capped petrels only linked to unidentified goldeneyes, both listed as threatened species by IUCN. 
 
@@ -430,5 +438,6 @@ $\star$ buffleheads, royal terns, unidentified alcids, Arctic terns, common murr
 
 $\star$ these species are most often intermediate species, that is most links from a to b path through these species
 
-
+\bibliographystyle{rss}
+\bibliography{lit}
 \end{document}

@@ -1,0 +1,22 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL: }\fi
+
+\bibitem[{Eckardt(2016{\natexlab{a}})}]{Eckardt2016}
+Eckardt, M. (2016{\natexlab{a}}) {Graphical modelling of multivariate spatial
+  point processes}.
+\newblock \textit{ArXiv e-prints~}.
+
+\bibitem[{Eckardt(2016{\natexlab{b}})}]{Eckardt2016a}
+--- (2016{\natexlab{b}}) \textit{sdgm: Graphical modelling of multivariate
+  spatial point patterns}.
+\newblock R package version 1.0.
+
+\bibitem[{{Eckardt} and {Mateu}(2016)}]{Eckardt2016b}
+{Eckardt}, M. and {Mateu}, J. (2016) Analysing multivariate spatial point
+  processes with continuous marks: A graphical modelling approach.
+\newblock \textit{ArXiv e-prints~}.
+
+\end{thebibliography}

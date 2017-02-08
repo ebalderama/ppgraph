@@ -1,0 +1,1807 @@
+% Encoding: windows-1252
+
+@Article{Aalen1987,
+  author    = {Odd O. Aalen},
+  title     = {Dynamic modelling and causality},
+  journal   = {Scand. Actuar. J.},
+  year      = {1987},
+  volume    = {1987},
+  number    = {3-4},
+  pages     = {177-190},
+  doi       = {10.1080/03461238.1987.10413826},
+  eprint    = {http://dx.doi.org/10.1080/03461238.1987.10413826},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+  url       = { http://dx.doi.org/10.1080/03461238.1987.10413826 
+},
+}
+
+@BOOK{Aalen2008,
+  title = {Survival and Event History Analysis: A Process Point of View},
+  publisher = {Springer},
+  year = {2008},
+  author = {Odd O. Aalen and {\O}rnulf Borgan and H{\°a}kon K. Gjessing},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@PHDTHESIS{Ang:2010,
+  author = {Ang, Wei},
+  title = {Statistical Methodologies for Events in a Linear Network},
+  school = {The University of Western Australia},
+  year = {2010},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@PHDTHESIS{Ang2010,
+  author = {Ang, Wei},
+  title = {Statistical Methodologies for Events in a Linear Network},
+  school = {The University of Western Australia},
+  year = {2010},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@Article{Ang:Baddeley:Nair2012,
+  author    = {Ang, W. and Baddeley, A. and Nair, G.},
+  title     = {Geometrically Corrected Second Order Analysis of Events on a Linear Network, with Applications to Ecology and Criminology},
+  journal   = {Scand. J. Stat.},
+  year      = {2012},
+  volume    = {39},
+  pages     = {591--617},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Ang2012,
+  author    = {Ang, W. and Baddeley, A. and Nair, G.},
+  title     = {Geometrically corrected second order analysis of events on a linear network, with applications to ecology and criminology},
+  journal   = {Scand. J. Stat.},
+  year      = {2012},
+  volume    = {39},
+  pages     = {591--617},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Anselin1995,
+  author    = {Anselin, L.},
+  title     = {Local indicators of spatial association - LISA},
+  journal   = {Geogr. Anal.},
+  year      = {1995},
+  volume    = {27},
+  number    = {2},
+  pages     = {93-115},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@INBOOK{Baddeley2010,
+  chapter = {Multivariate and Marked Point Processes},
+  pages = {371-402},
+  title = {Handbook of Spatial Statistics},
+  publisher = {CRC Press},
+  year = {2010},
+  editor = {Gelfand , Alan E . and Diggle , Peter J . and Fuentes , Montserrat
+	and Guttorp, Peter},
+  author = {Baddeley, Adrian},
+  series = {Chapman \& Hall/CRC Handbooks of Modern Statistical Methods},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@Article{Baddeley2014,
+  author    = {Baddeley, Adrian and Jammalamadaka, Aruna and Nair, Gopalan},
+  title     = {Multitype point process analysis of spines on the dendrite network of a neuron},
+  journal   = {J. R. Stat. Soc. Series C},
+  year      = {2014},
+  volume    = {63},
+  number    = {5},
+  pages     = {673--694},
+  issn      = {1467-9876},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Baddeley:Jammalamadaka:Nair:2014,
+  author    = {Baddeley, A. and Jammalamadaka, and G. Nair},
+  title     = {Multitype point process analysis of spines on the dendrite network of a neuron.},
+  journal   = {J. R. Stat. Soc. Series C},
+  year      = {2014},
+  volume    = {63},
+  number    = {5},
+  pages     = {673-694},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@BOOK{Baddeley2015,
+  title = {Spatial Point Patterns: Methodology and Applications with R},
+  publisher = {CRC Press},
+  year = {2015},
+  author = {Baddeley, Adrian and Rubak, Ege and Turner, Rolf},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Banerjee2004,
+  title = {Hierarchical Modeling and Analysis for Spatial Data},
+  publisher = {Chapman \& Hall/CRC},
+  year = {2004},
+  author = {Banerjee, Sudipto and Carlin, Bradley P. and Gelfand, Alan E.},
+  address = {Boca Raton, London},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Bang-Jensen2009,
+  title = {Digraphs: Theory, algorithms and applications},
+  publisher = {London: Springer},
+  year = {2009},
+  author = {J. Bang-Jensen and G. Gutin},
+  edition = {2nd},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Bartlett1964,
+  author = {M. S. Bartlett},
+  title = {The spectral analysis of two-dimensional point processes},
+  journal = {Biometrika},
+  year = {1964},
+  volume = {51},
+  pages = {299--311},
+  owner = {mattandi},
+  timestamp = {2016.01.22}
+}
+
+@Article{Bartlett1963,
+  author    = {M. S. Bartlett},
+  title     = {The spectral analysis of point processes},
+  journal   = {J. R. Stat. Soc. Series B Stat. Methodol.},
+  year      = {1963},
+  volume    = {29},
+  pages     = {264--296},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@Article{Bendat1978,
+  author    = {Bendat, J.S.},
+  title     = {Statistical errors in measurement of coherence functions and input/output quantities},
+  journal   = {J. Sound Vib.},
+  year      = {1978},
+  volume    = {59},
+  pages     = {405-421},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@Article{Besag:74,
+  author    = {J. E. Besag},
+  title     = {Spatial interaction and the statistical analysis of lattice systems (with discussion)},
+  journal   = {J. R. Stat. Soc. Series B Stat. Methodol.},
+  year      = {1974},
+  volume    = {36},
+  pages     = {192--236},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Besag:74,
+  author    = {J. E. Besag},
+  title     = {Spatial interaction and the statistical analysis of lattice systems (with discussion)},
+  journal   = {J. R. Stat. Soc. Series B Stat. Methodol.},
+  year      = {1974},
+  volume    = {36},
+  pages     = {192--236},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@BOOK{Bondy2008,
+  title = {Graph Theory},
+  publisher = {New York: Springer},
+  year = {2008},
+  author = {John Adrian Bondy and Uppaluri Siva Ramachandra Murty},
+  address = {New York, NY}
+}
+
+@InProceedings{Borruso:2005,
+  author    = {Borruso, G.},
+  title     = {Network density estimation: Analysis of point patterns over a network.},
+  booktitle = {Lect. Notes Comput. Sc. - ICCSA},
+  year      = {2005},
+  editor    = {O. Gervasi and M.L. Gavrilova and V. Kumar and A. Lagan{\'a} and H.P. Lee and Y. Mun and D. Taniar, and C.J.K. Tan},
+  number    = {3482},
+  series    = {Lecture Notes in Computer Science},
+  pages     = {126-132},
+  publisher = {Springer},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@INPROCEEDINGS{Borruso:2005,
+  author = {Borruso, G.},
+  title = {Network density estimation: Analysis of point patterns over a network.},
+  booktitle = {Computational Science and its Applications - ICCSA},
+  year = {2005},
+  editor = {O. Gervasi and M.L. Gavrilova and V. Kumar and A. Lagan{\'a} and
+	H.P. Lee and Y. Mun and D. Taniar, and C.J.K. Tan},
+  number = {3482},
+  series = {Lecture Notes in Computer Science},
+  pages = {126-132},
+  publisher = {Springer},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@Article{Borruso:2008,
+  author    = {G. Borruso},
+  title     = {Network density estimation: a GIS approach for analysing point patterns in a network space.},
+  journal   = {Trans. GIS},
+  year      = {2008},
+  volume    = {12},
+  pages     = {377-402},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Borruso:2008,
+  author    = {G. Borruso},
+  title     = {Network density estimation: a GIS approach for analysing point patterns in a network space.},
+  journal   = {Trans. GIS},
+  year      = {2008},
+  volume    = {12},
+  pages     = {377-402},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Brezger2006,
+  author  = {Andreas Brezger and Stefan Lang},
+  title   = {Generalized structured additive regression based on Bayesian P-splines},
+  journal = {Comput. Stat. Data Anal.},
+  year    = {2006},
+  volume  = {50},
+  number  = {4},
+  pages   = {967 - 991},
+}
+
+@Article{Brillinger1996,
+  author    = {Brillinger, D.},
+  title     = {Remarks concerning graphical models for time series and point processes},
+  journal   = {Rev. de Econometrica},
+  year      = {1996},
+  volume    = {16},
+  pages     = {1-23},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@BOOK{Brillinger1981,
+  title = {Time Series: Data Analysis and Theory},
+  publisher = {Holt, Rinchart and Winston, New York},
+  year = {1981},
+  author = {Brillinger, D.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@INPROCEEDINGS{Brillinger1972,
+  author = {Brillinger, D.R.},
+  title = {The spectral analysis of stationary interval functions},
+  booktitle = {Proceedings of the Sixth Berkley Symposium},
+  year = {1972},
+  volume = {1},
+  pages = {483-513},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Brockwell2006,
+  title = {Time Series: Theory and Methods},
+  publisher = {Springer},
+  year = {2006},
+  author = {Peter J. Brockwell and Richard A. Davis},
+  edition = {2nd},
+  owner = {mattandi},
+  timestamp = {2014.09.04}
+}
+
+@Article{Capobianco1998,
+  author    = {Capobianco, Rosa and Renshaw, Eric},
+  title     = {The Autocovariance Function for Marked Point Processes: A Comparison between Two Different Approaches},
+  journal   = {Biom. J.},
+  year      = {1998},
+  volume    = {40},
+  number    = {4},
+  pages     = {431--446},
+  doi       = {10.1002/(SICI)1521-4036(199808)40:4<431::AID-BIMJ431>3.0.CO;2-V},
+  issn      = {1521-4036},
+  owner     = {mattandi},
+  publisher = {WILEY-VCH Verlag},
+  timestamp = {2016.10.28},
+}
+
+@BOOK{Carrington2005,
+  title = {Models and methods in social network analysis},
+  publisher = {Cambridge University Press},
+  year = {2005},
+  author = {Carrington, Peter J. and Scott, John and Wasserman, Stanley},
+  series = {Structural analysis in the social sciences},
+  address = {Cambridge (U.K.), New York (N.Y.)},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Carrington2005,
+  title = {Models and methods in social network analysis},
+  publisher = {Cambridge University Press},
+  year = {2005},
+  author = {Carrington, Peter J. and Scott, John and Wasserman, Stanley},
+  series = {Structural analysis in the social sciences},
+  address = {Cambridge (U.K.), New York (N.Y.)},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Chatfield1989,
+  title = {The Analysis of Time Series: An Introduction},
+  publisher = {Chapman \& Hall CRC, Boca Raton},
+  year = {1989},
+  author = {Chatfield, C.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Cowell1999,
+  title = {Probabilistic Networks and Expert Systems},
+  publisher = {New York: Springer},
+  year = {1999},
+  author = {Cowell, Robert G. and Dawid, A. Philip and Lauritzen, Steffen L.
+	and Spiegelhalter, David J.},
+  series = {Statistics for Engineering and Information Science},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Cox1980,
+  title = {Point processes},
+  publisher = {Chapman \& Hall CRC, Boca Raton},
+  year = {1980},
+  author = {Cox, D.R. and Isham, V.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Cox1996,
+  title = {Multivariate Dependencies : Models, Analysis and Interpretation},
+  publisher = {Chapman \& Hall CRC, Boca Raton},
+  year = {1996},
+  author = {Cox, D.R. and Wermuth, N.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@ARTICLE{Dahlhaus2000,
+  author = {Dahlhaus, Rainer},
+  title = {Graphical interaction models for multivariate time series},
+  journal = {Metrika},
+  year = {2000},
+  volume = {51},
+  pages = {157-172},
+  number = {2}
+}
+
+@Article{Dahlhausetal1997,
+  author    = {Dahlhaus, R. and Eichler, M. and Sandk{\"u}hler, J.},
+  title     = {Identification of synaptic connections in neural ensembles by graphical models},
+  journal   = {J. Neurosci. Methods},
+  year      = {1997},
+  volume    = {77},
+  number    = {1},
+  pages     = {93-107},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@BOOK{Daley2008,
+  title = {An introduction to the theory of point processes. Volume II},
+  publisher = {Springer, Berlin-Heidelberg},
+  year = {2008},
+  author = {Daley, D.J. and Vere-Jones, D.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Daley2003,
+  title = {An Introduction to the theory of point processes. Volume I},
+  publisher = {Springer, Berlin-Heidelberg},
+  year = {2003},
+  author = {Daley, D.J. and Vere-Jones, D.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@INBOOK{Didelez2011,
+  chapter = {Graphical models for stochastic processes},
+  pages = {138-141},
+  title = {Highly structured stochastic systems},
+  publisher = {Ox},
+  year = {2011},
+  editor = {Peter J Green and Nils Lid Hjort and Sylvia Richardson},
+  author = {Didelez, V.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Didelez2008,
+  author    = {Didelez, V.},
+  title     = {Graphical models for marked point processes based on local independence},
+  journal   = {J. R. Stat. Soc. Series. B Stat. Methodol.},
+  year      = {2008},
+  volume    = {70},
+  pages     = {245-264},
+  owner     = {mattandi},
+  part      = {1},
+  timestamp = {2016.05.29},
+}
+
+@Article{Didelez2007,
+  author    = {Didelez, V},
+  title     = {Graphical models for composable finite markov processes},
+  journal   = {Scand. J. Stat.},
+  year      = {2007},
+  volume    = {34},
+  pages     = {169-185},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@INPROCEEDINGS{Didelez2006,
+  author = {Vanessa Didelez },
+  title = {Asymmetric separation for local independence graphs},
+  booktitle = {Proceedings of the Twenty-Second Conference Annual Conference on
+	Uncertainty in Artificial Intelligence (UAI-06)},
+  year = {2006},
+  pages = {130--137},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@PHDTHESIS{Didelez2000,
+  author = {Vanessa Didelez},
+  title = {Graphical Models for Event History Analysis Based on Local Independence},
+  school = {Universität Dortmund},
+  year = {2000},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Diestel2010,
+  title = {Graph Theory},
+  publisher = {Heidelberg: Springer},
+  year = {2010},
+  author = {Diestel, Reinhard },
+  edition = {4. ed.},
+  owner = {mattandi},
+  timestamp = {2016.06.20}
+}
+
+@BOOK{Diggle2013,
+  title = {Statistical Analysis of Spatial and Spatio-Temporal Point Patterns},
+  publisher = {Chapman and Hall/CRC, Boca Raton.},
+  year = {2013},
+  author = {Diggle, P.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Diggle2002,
+  title = {Statistical analysis spatial point patterns},
+  publisher = {Edward Arnold, London},
+  year = {2002},
+  author = {Diggle, P.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Diggle2005,
+  author    = {Diggle, P. and Zheng, P. and Durr, P.},
+  title     = {Nonparametric estimation of spatial segregation in a multivariate point process: bovine tuberculosis in Cornwall, UK.},
+  journal   = {J. R. Stat. Soc. Series C},
+  year      = {2005},
+  volume    = {54},
+  pages     = {645-658.},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@Article{Dreassi2007,
+  author    = {Dreassi, Emanuela and Gottard, Anna},
+  title     = {A Bayesian approach to model Interdependent event histories by graphical models},
+  journal   = {Stat. Methods Appt.},
+  year      = {2007},
+  volume    = {16},
+  number    = {1},
+  pages     = {39-49},
+  owner     = {mattandi},
+  publisher = {Springer-Verlag},
+  timestamp = {2016.05.29},
+}
+
+@INBOOK{Eckardt2016,
+  pages = {221--229},
+  title = {Reviewing Graphical Modelling of Multivariate Temporal Processes},
+  publisher = {Springer International Publishing},
+  year = {2016},
+  editor = {Wilhelm, F.X. Adalbert and Kestler, A. Hans},
+  author = {Eckardt, Matthias},
+  address = {Cham},
+  booktitle = {Analysis of Large and Complex Data},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@TECHREPORT{Eckardt:2016,
+  author = {Eckardt, Matthias},
+  title = {Graphical Modelling of Multivariate Spatial Point Processes},
+  institution = {Department of Computer Science, Humboldt-Universit{\"a}t zu Berlin},
+  year = {2016},
+  owner = {mattandi},
+  timestamp = {2016.01.22}
+}
+
+@ARTICLE{Eckardt2016a,
+  author = {Eckardt, M.},
+  title = {{Graphical modelling of multivariate spatial point processes}},
+  journal = {ArXiv e-prints~},
+  year = {2016},
+  adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160707083E},
+  eprint = {1607.07083},
+  keywords = {Statistics - Methodology, Statistics - Applications},
+  owner = {mattandi},
+  primaryclass = {stat.ME},
+  timestamp = {2016.10.28}
+}
+
+@MANUAL{Eckardt2016d,
+  title = {sppgraph: Graphical modelling of multivariate spatial point patterns},
+  author = {Eckardt, Matthias },
+  year = {2016},
+  note = {R package version 1.0},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Eckardt2016b,
+  author = {Eckardt, M. and Mateu, J.},
+  title = {{Point patterns occurring on complex structures in space and space-time:
+	An alternative network approach}},
+  journal = {ArXiv e-prints~},
+  year = {2016},
+  month = jul,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160706288E},
+  eprint = {1607.06288},
+  owner = {mattandi},
+  primaryclass = {stat.AP},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Eckardt2016c,
+  author = {Eckardt, M. and Mateu, J.},
+  title = {{Structured network regression for spatial point patterns}},
+  journal = {ArXiv e-prints~},
+  year = {2016},
+  month = jul,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160706685E},
+  eprint = {1607.06685},
+  owner = {mattandi},
+  primaryclass = {stat.AP},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Eckardt2016e,
+  author = {{Eckardt}, M. and {Mateu}, J.},
+  title = {{Graphical modelling of multivariate spatial point processes with
+	continuous marks}},
+  journal = {ArXiv e-prints~},
+  year = {2016},
+  eprint = {1609.08641}
+}
+
+@BOOK{Edwards2000,
+  title = {Introduction to Graphical Modelling},
+  publisher = {Springer},
+  year = {2000},
+  author = {Edwards, D.I.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Eichler2003,
+  author    = {Eichler, M. and Dahlhaus, R. and Sandk\"{u}hler, J.},
+  title     = {Partial correlation analysis for the identification of synaptic connections.},
+  journal   = {Biol. Cybern.},
+  year      = {2003},
+  volume    = {89},
+  pages     = {289-302},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@Article{Eilers1996,
+  author    = {Eilers, Paul H. C. and Marx, Brian D.},
+  title     = {Flexible smoothing with B-splines and penalties},
+  journal   = {Stat. Sci.},
+  year      = {1996},
+  volume    = {11},
+  number    = {2},
+  pages     = {89-121},
+  doi       = {10.1214/ss/1038425655},
+  fjournal  = {Statistical Science},
+  owner     = {mattandi},
+  publisher = {The Institute of Mathematical Statistics},
+  timestamp = {2016.10.28},
+  url       = {http://dx.doi.org/10.1214/ss/1038425655},
+}
+
+@Article{Fahrmeir2004,
+  author    = {Ludwig Fahrmeir and Thomas Kneib and Stefan Lang},
+  title     = {Penalized structured additive regression for spacetime data: a Bayesian perspective},
+  journal   = {Stat. Sin.},
+  year      = {2004},
+  pages     = {731-761},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Fahrmeir2006,
+  author    = {Fahrmeir, Ludwig and Osuna, Leyre},
+  title     = {Structured additive regression for overdispersed and zero-inflated count data},
+  journal   = {Appl. Stochastic Models Bus. Ind.},
+  year      = {2006},
+  volume    = {22},
+  number    = {4},
+  pages     = {351--369},
+  doi       = {10.1002/asmb.631},
+  issn      = {1526-4025},
+  keywords  = {Bayesian semiparametric count data regression, overdispersion, zero inflation, MCMC, spatial models, patent data, car insurance},
+  owner     = {mattandi},
+  publisher = {John Wiley \& Sons, Ltd.},
+  timestamp = {2016.10.28},
+  url       = {http://dx.doi.org/10.1002/asmb.631},
+}
+
+@TECHREPORT{Fahrmeir2003,
+  author = {Ludwig Fahrmeir and L. Osuna},
+  title = {Structured count data regression},
+  institution = {Department of Statistics, Ludwig-Maximilians-Universit\"{a}t M\"{u}nchen},
+  year = {2003},
+  owner = {mattandi},
+  series = {sfb386},
+  timestamp = {2016.10.28},
+  volume = {334}
+}
+
+@Article{Fosen2006,
+  author    = {Johan Fosen and {\O}rnulf Borgan and Harald Weedon-Fekj{\ae}r and Odd O. Aalen},
+  title     = {Dynamic analysis of recurrent event data using the additive hazard model},
+  journal   = {Biom. J.},
+  year      = {2006},
+  volume    = {48},
+  number    = {3},
+  pages     = {381-398},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@Article{Fosen2006a,
+  author    = {Johan Fosen and Egil Ferkingstad and {\O}rnulf Borgan and Odd O. Aalen},
+  title     = {Dynamic path analysis - A new approach to analyzing time-dependent covariates},
+  journal   = {Lifetime Data Anal.},
+  year      = {2006},
+  volume    = {12},
+  number    = {2},
+  pages     = {143-67},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@TECHREPORT{Gerrard1969,
+  author = {Gerrard, D.J.},
+  title = {Competition quotient : a new measure of the competition affecting
+	individual forest trees},
+  institution = {Agricultural Experiment Station, Michigan State University},
+  year = {1969},
+  type = {Research Bulletin},
+  number = {20},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@ARTICLE{Goldenberg:EtAl:2010,
+  author = {Goldenberg, Anna and Zheng, Alice X. and Fienberg, Stephen E. and
+	Airoldi, Edoardo M.},
+  title = {A survey of statistical network models},
+  journal = {Found. Trends Mach. Learn.},
+  year = {2010},
+  volume = {2},
+  pages = {129-233},
+  number = {2},
+  acmid = {1734795},
+  address = {Hanover, MA, USA},
+  doi = {10.1561/2200000005},
+  issn = {1935-8237},
+  issue_date = {February 2010},
+  numpages = {105},
+  owner = {mattandi},
+  publisher = {Now Publishers Inc.},
+  timestamp = {2016.10.28},
+  url = {http://dx.doi.org/10.1561/2200000005}
+}
+
+@Article{Goldenberg:EtAl:2010,
+  author     = {Goldenberg, Anna and Zheng, Alice X. and Fienberg, Stephen E. and Airoldi, Edoardo M.},
+  title      = {A Survey of Statistical Network Models},
+  journal    = {Found. Trends Mach. Learn.},
+  year       = {2010},
+  volume     = {2},
+  number     = {2},
+  pages      = {129-233},
+  acmid      = {1734795},
+  address    = {Hanover, MA, USA},
+  doi        = {10.1561/2200000005},
+  issn       = {1935-8237},
+  issue_date = {February 2010},
+  numpages   = {105},
+  owner      = {mattandi},
+  publisher  = {Now Publishers Inc.},
+  timestamp  = {2016.10.28},
+  url        = {http://dx.doi.org/10.1561/2200000005},
+}
+
+@ARTICLE{Gottard2007,
+  author = {Gottard, Anna},
+  title = {On the inclusion of bivariate marked point processes in graphical
+	models},
+  journal = {Metrika},
+  year = {2007},
+  volume = {66},
+  pages = {269-287},
+  number = {3},
+  issn = {0026-1335},
+  owner = {mattandi},
+  publisher = {Springer-Verlag},
+  timestamp = {2016.05.29}
+}
+
+@Article{Gottard2007a,
+  author    = {Anna Gottard and Carla Rampichini},
+  title     = {Chain graphs for multilevel models},
+  journal   = {Stat. Prob. Lett.},
+  year      = {2007},
+  volume    = {77},
+  number    = {3},
+  pages     = {312 - 318},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@ARTICLE{Grabarnik2009,
+  author = {Grabarnik, P. and S\"{a}rkk\"{a}, A},
+  title = {Modelling the spatial structure of forest stands by multivariate
+	point processes with hierarchical interactions},
+  journal = {Ecol. Model.},
+  year = {2009},
+  volume = {220},
+  pages = {1232-1240.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{green1987,
+  author    = {Peter J. Green},
+  title     = {Penalized Likelihood for General Semi-Parametric Regression Models},
+  journal   = {Int. Stat. Rev.},
+  year      = {1987},
+  volume    = {55},
+  number    = {3},
+  pages     = {245-259},
+  publisher = {[Wiley, International Statistical Institute (ISI)]},
+}
+
+@ARTICLE{Guan2006,
+  author = {Yongtao Guan},
+  title = {Tests for Independence between Marks and Points of a Marked Point
+	Process},
+  journal = {Biometrics},
+  year = {2006},
+  volume = {62},
+  pages = {126-134},
+  number = {1},
+  issn = {0006341X, 15410420},
+  owner = {mattandi},
+  publisher = {[Wiley, International Biometric Society]},
+  timestamp = {2016.10.28},
+  url = {http://www.jstor.org/stable/3695713}
+}
+
+@Article{Guan2007a,
+  author    = {Y. Guan and D. R. Afshartous},
+  title     = {Test for independence between marks and points of marked point processes: a subsampling approach},
+  journal   = {Environ. Ecol. Stat.},
+  year      = {2007},
+  volume    = {14},
+  pages     = {101-111},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@BOOK{Hastie1990,
+  title = {Generalized additive models},
+  publisher = {Chapman \& Hall},
+  year = {1990},
+  author = {Hastie, Trevor J. and Tibshirani, Robert John},
+  series = {Monographs on statistics and applied probability},
+  address = {London},
+  isbn = {0-412-34390-8},
+  owner = {mattandi},
+  timestamp = {2016.10.28},
+  url = {http://opac.inria.fr/record=b1088229}
+}
+
+@Article{Hennerfeld2006,
+  author    = {Andrea Hennerfeind and Andreas Brezger and Ludwig Fahrmeir},
+  title     = {Geoadditive Survival Models},
+  journal   = {J. Am. Stat. Assoc.},
+  year      = {2006},
+  volume    = {101},
+  number    = {475},
+  pages     = {1065-1075},
+  issn      = {01621459},
+  owner     = {mattandi},
+  publisher = {[American Statistical Association, Taylor \& Francis, Ltd.]},
+  timestamp = {2016.10.28},
+  url       = {http://www.jstor.org/stable/27590784},
+}
+
+@INBOOK{Illian2006,
+  pages = {135-150},
+  title = {Principal component analysis for spatial point processes - assessing
+	the appropriateness of the approach in an ecological context},
+  publisher = {Springer New York},
+  year = {2006},
+  editor = {Baddeley, Adrian and Gregori, Pablo and Mateu, Jorge and Stoica,
+	Radu and Stoyan, Dietrich},
+  author = {Illian, Janine and Benson, Erica and Crawford, John and Staines,
+	Harry},
+  address = {New York, NY},
+  booktitle = {Case Studies in Spatial Point Process Modeling},
+  doi = {10.1007/0-387-31144-0_7},
+  isbn = {978-0-387-31144-9},
+  owner = {mattandi},
+  timestamp = {2016.10.28},
+  url = {http://dx.doi.org/10.1007/0-387-31144-0_7}
+}
+
+@Article{Illian2007,
+  author    = {Illian, J. and Burslem, D.},
+  title     = {Contributions of spatial point process modelling to biodiversity theory},
+  journal   = {J. Soc. Fr. Statistique},
+  year      = {2007},
+  volume    = {148},
+  pages     = {9-29},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@BOOK{Illian2008,
+  title = {Statistical Analysis and Modelling of Spatial Point Patterns},
+  publisher = {John Wiley \& Sons, New York.},
+  year = {2008},
+  author = {Illian, J. and Penttinen, A. and Stoyan, H. and Stoyan, D.}
+}
+
+@Article{Kammann2003,
+  author    = {Kammann, E. E. and Wand, M. P.},
+  title     = {Geoadditive models},
+  journal   = {J. R. Stat. Soc. Series C},
+  year      = {2003},
+  volume    = {52},
+  number    = {1},
+  pages     = {1--18},
+  doi       = {10.1111/1467-9876.00385},
+  issn      = {1467-9876},
+  keywords  = {Additive models, Disease mapping, Geostatistics, Kriging, Mixed models, Nonparametric regression, Penalized splines, Restricted maximum likelihood},
+  owner     = {mattandi},
+  publisher = {Blackwell Publishing},
+  timestamp = {2016.10.28},
+  url       = {http://dx.doi.org/10.1111/1467-9876.00385},
+}
+
+@PHDTHESIS{kneib2006,
+  author = {Thomas Kneib},
+  title = {Mixed model based inference in structured additive regression},
+  school = {Ludwig-Maximilians-Universit{\"a}t M{\"u}nchen},
+  year = {2006},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Kolaczyk:2009,
+  title = {Statistical analysis of network data: methods and models.},
+  publisher = {Springer},
+  year = {2009},
+  author = {Kolaczyk, E.D.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Kolaczyk:2009,
+  title = {Statistical Analysis of Network Data: Methods and Models.},
+  publisher = {Springer},
+  year = {2009},
+  author = {Kolaczyk, E.D.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Koller2010,
+  title = {Probabilistic Graphical Models: Principles and Techniques},
+  publisher = {MIT Press},
+  year = {2010},
+  author = {Koller, Daphne and Friedman, Nir},
+  owner = {mattandi},
+  timestamp = {2013.12.28}
+}
+
+@BOOK{Koskinen:Lusher:Robins:2011,
+  title = {Exponential random graph models.},
+  publisher = {Cambridge University Press, Cambridge},
+  year = {2011},
+  author = {Koskinen, J and Lusher, D, and Robins, G.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Koskinen:Lusher:Robins:2011,
+  title = {Exponential Random Graph Models.},
+  publisher = {Cambridge University Press, Cambridge},
+  year = {2011},
+  author = {Koskinen, J and Lusher, D, and Robins, G.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Lauritzen1996,
+  title = {Graphical Models},
+  publisher = {Oxford University Press},
+  year = {1996},
+  author = {Lauritzen, S. L.},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Lazega2016,
+  author = {Emmanuel Lazega and Tom A.B. Snijders},
+  title = {Multilevel network analysis: Theory, methods and applications},
+  year = {2016},
+  owner = {mattandi},
+  publisher = {Springer},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Lazega2016,
+  author = {Emmanuel Lazega and Tom A.B. Snijders},
+  title = {Multilevel Network Analysis: Theory, Methods and Applications},
+  year = {2016},
+  owner = {mattandi},
+  publisher = {Springer},
+  timestamp = {2016.10.28}
+}
+
+@PHDTHESIS{Leininger2014,
+  author = {Leininger, Thomas J},
+  title = {Bayesian Analysis of Spatial Point Patterns},
+  school = {Duke University},
+  year = {2014},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@Article{Leininger2016,
+  author    = {Leininger, Thomas J and Gelfand, Alan E},
+  title     = {Bayesian Inference and Model Assessment for Spatial Point Patterns Using Posterior Predictive Samples},
+  journal   = {Bayesian Anal.},
+  year      = {2016},
+  pages     = {Advance Publication},
+  doi       = {doi:10.1214/15-BA985},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@BOOK{Moller2004,
+  title = {Statistical Inference and Simulation for Spatial Point Processes},
+  publisher = {Chapman and Hall/CRC, Boca Raton},
+  year = {2004},
+  author = {J. M{\o}ller and R. P. Waagepetersen},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Moller2004,
+  title = {Statistical Inference and Simulation for Spatial Point Processes},
+  publisher = {Chapman and Hall/CRC, Boca Raton},
+  year = {2004},
+  author = {J. M{\o}ller and R. P. Waagepetersen},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@BOOK{Marchette:2004,
+  title = {Random Graphs for Statistical Pattern Recognition.},
+  publisher = {J. Wiley \& Sons, Hoboken, NJ.},
+  year = {2004},
+  author = {Marchette, D.J.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Marchette2004,
+  title = {Random Graphs for Statistical Pattern Recognition},
+  publisher = {J. Wiley \& Sons, Hoboken, NJ.},
+  year = {2004},
+  author = {Marchette, D.J.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@Article{Martinussen2010,
+  author    = {Martinussen, T.},
+  title     = {Dynamic path analysis for event time data: large sample properties and inference},
+  journal   = {Lifetime Data Anal.},
+  year      = {2010},
+  volume    = {16},
+  number    = {1},
+  pages     = {85-101},
+  owner     = {mattandi},
+  publisher = {Springer US},
+  timestamp = {2016.05.29},
+}
+
+@Article{Mateu2000,
+  author    = {J. Mateu},
+  title     = {Second-order characteristics of spatial marked processes with applications},
+  journal   = {Nonlinear Anal. Real World Appl.},
+  year      = {2000},
+  volume    = {1},
+  pages     = {145-162},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@ARTICLE{Matsuda2006a,
+  author = {Yasumasa Matsuda},
+  title = {A test statistic for graphical modelling of multivariate time series},
+  journal = {Biometrika},
+  year = {2006},
+  volume = {93},
+  pages = {399-409},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{McCullagh1989,
+  title = {Generalized Linear Models},
+  publisher = {Chapman \& Hall / CRC},
+  year = {1989},
+  author = {McCullagh, P. and Nelder, J. A.},
+  address = {London},
+  added-at = {2010-01-10T01:48:50.000+0100},
+  biburl = {http://www.bibsonomy.org/bibtex/21236b0d4dcf920ff44d2c578d82bd780/vivion},
+  keywords = {generalized glm linear models statistics},
+  location = {London, UK: Chapman \& Hall / CRC},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@ARTICLE{Mugglestone1996a,
+  author = {Mugglestone, M. A. and Renshaw, E.},
+  title = {The exploratory analysis of bivariate spatial point pattern using
+	cross-spectra},
+  journal = {Environmetrics},
+  year = {1996},
+  volume = {7},
+  pages = {361--377},
+  owner = {mattandi},
+  timestamp = {2016.05.30}
+}
+
+@Article{Mugglestone1996b,
+  author    = {Mugglestone, M. A. and Renshaw, E.},
+  title     = {A practical guide to the spectral analysis of spatial point processes},
+  journal   = {Comput. Stat. Data. Anal.},
+  year      = {1996},
+  volume    = {21},
+  pages     = {43--65},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@Article{Mugglestone2001,
+  author    = {Mugglestone, M.A. and Renshaw, E.},
+  title     = {Spectral tests of randomness for spatial point pattern},
+  journal   = {Environ. Ecol. Stat.},
+  year      = {2001},
+  volume    = {8},
+  pages     = {237-251},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@PHDTHESIS{Myllymaeki2009,
+  author = {Myllymäki, Mari},
+  title = {Statistical Models and Inference for Spatial Point Patterns with
+	Intensity-Dependent Marks},
+  school = {University of Jyväskylä},
+  year = {2009},
+  owner = {mattandi},
+  timestamp = {2016.09.20}
+}
+
+@ARTICLE{MollerGhorbaniRubak2016,
+  author = {Møller, Jesper and Ghorbani, Mohammad and Rubak, Ege},
+  title = {Mechanistic spatio-temporal point process models for marked point
+	processes, with a view to forest stand data},
+  journal = {Biometrics},
+  year = {2016},
+  volume = {72},
+  pages = {687-696},
+  number = {3},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@Article{Newman2004,
+  author    = {Newman, M. E. J. and Girvan, M.},
+  title     = {Finding and evaluating community structure in networks},
+  journal   = {Phys. Rev. E.},
+  year      = {2004},
+  volume    = {69},
+  pages     = {026113},
+  doi       = {10.1103/PhysRevE.69.026113},
+  issue     = {2},
+  numpages  = {15},
+  owner     = {mattandi},
+  publisher = {American Physical Society},
+  timestamp = {2016.10.28},
+  url       = {http://link.aps.org/doi/10.1103/PhysRevE.69.026113},
+}
+
+@Article{Ni2016,
+  author  = {Ni, Jianhua and Qian, Tianlu and Xi, Changbai and Rui, Yikang and Wang, Jiechen},
+  title   = {Spatial Distribution Characteristics of Healthcare Facilities in Nanjing: Network Point Pattern Analysis and Correlation Analysis},
+  journal = {Int. J. Environ. Res. Public Health},
+  year    = {2016},
+  volume  = {13},
+  number  = {8},
+  pages   = {833},
+}
+
+@INCOLLECTION{Okabe:Satoh:2009,
+  author = {A. Okabe and T. Satoh},
+  title = {Spatial analysis on a network},
+  booktitle = {The SAGE Handbook on Spatial Analysis},
+  publisher = {SAGE Publications},
+  year = {2009},
+  editor = {A.S. Fotheringham and P.A. Rogers},
+  chapter = {23},
+  pages = {443-464},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@INCOLLECTION{Okabe:Satoh:2009,
+  author = {A. Okabe and T. Satoh},
+  title = {Spatial analysis on a network},
+  booktitle = {The SAGE Handbook on Spatial Analysis},
+  publisher = {SAGE Publications},
+  year = {2009},
+  editor = {A.S. Fotheringham and P.A. Rogers},
+  chapter = {23},
+  pages = {443-464},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Okabe:Sugihara:2012,
+  title = {Spatial analysis along networks},
+  publisher = {Wiley},
+  year = {2012},
+  author = {A. Okabe and K. Sugihara},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Okabe:Sugihara:2012,
+  title = {Spatial Analysis Along Networks},
+  publisher = {Wiley},
+  year = {2012},
+  author = {A. Okabe and K. Sugihara},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@Article{Okabe:Yamada:2001,
+  author    = {Okabe, Atsuyuki and Yamada, Ikuho},
+  title     = {The ${K}$-Function on a Network and its Computational Implementation},
+  journal   = {Geogr. Anal.},
+  year      = {2001},
+  volume    = {33},
+  number    = {3},
+  pages     = {271-290},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Okabe2001,
+  author    = {Okabe, Atsuyuki and Yamada, Ikuho},
+  title     = {The ${K}$-function on a network and its computational implementation},
+  journal   = {Geogr. Anal.},
+  year      = {2001},
+  volume    = {33},
+  number    = {3},
+  pages     = {271-290},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@ARTICLE{Palmer1990,
+  author = {Michael W. Palmer},
+  title = {Vascular Flora of the Duke Forest, North Carolina},
+  journal = {Castanea},
+  year = {1990},
+  volume = {55},
+  pages = {229-244},
+  number = {4}
+}
+
+@BOOK{Pearl1988,
+  title = {Probabilistic Reasoning in Intelligent Systems: Networks of Plausible
+	Inference},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  year = {1988},
+  author = {Pearl, Judea},
+  owner = {mattandi},
+  timestamp = {2014.04.04}
+}
+
+@Article{Penrose:2005,
+  author    = {Penrose, M.},
+  title     = {Multivariate Spatial Central Limit Theorems with Application to Percolation and Spatial Graphs},
+  journal   = {Ann. Probab.},
+  year      = {2005},
+  volume    = {33},
+  pages     = {1945-1991},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Penrose2005,
+  author    = {Penrose, M.},
+  title     = {Multivariate spatial central limit theorems with application to percolation and spatial graphs},
+  journal   = {Ann. Probab.},
+  year      = {2005},
+  volume    = {33},
+  pages     = {1945-1991},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@BOOK{Penrose:2003,
+  title = {Random Geometric Graphs.},
+  publisher = {Oxford University Press, Oxford},
+  year = {2003},
+  author = {Penrose, M.D.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@BOOK{Penrose2003,
+  title = {Random geometric graphs.},
+  publisher = {Oxford University Press, Oxford},
+  year = {2003},
+  author = {Penrose, M.D.},
+  owner = {mattandi},
+  timestamp = {2016.02.03}
+}
+
+@Article{penrose:01,
+  author    = {M. D. Penrose},
+  title     = {Random Parking, Sequential Adsorption, and the Jamming Limit},
+  journal   = {Commun. Math. Phys.},
+  year      = {2001},
+  volume    = {218},
+  pages     = {153 -176},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{penrose:yukich:02,
+  author    = {M. D. Penrose and J. E. Yukich},
+  title     = {LIMIT THEORY FOR RANDOM SEQUENTIAL PACKING AND DEPOSITION},
+  journal   = {Ann. Appl. Probab},
+  year      = {2002},
+  volume    = {12},
+  pages     = {272--301},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Penrose:Yukich:2001,
+  author    = {Penrose, M. D. and Yukich, J. E.},
+  title     = {Central Limit Theorems for some Graph in Computational Geometry},
+  journal   = {Ann. Appl. Probab.},
+  year      = {2001},
+  volume    = {11},
+  pages     = {1005-1041},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Penrose2001,
+  author    = {Penrose, M. D. and Yukich, J. E.},
+  title     = {Central limit theorems for some graph in computational geometry.},
+  journal   = {Ann. Appl. Probab.},
+  year      = {2001},
+  volume    = {11},
+  pages     = {1005-1041},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Penttinen1992,
+  author    = {A. Penttinen and D. Stoyan and H. M. Henttonen},
+  title     = {Marked point processes in forest statistics},
+  journal   = {For. Sci.},
+  year      = {1992},
+  volume    = {38},
+  pages     = {806--824},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@Article{Politis2001,
+  author    = {D. N. Politis and M. Sherman},
+  title     = {Moment Estimation for Statistics from Marked Point Processes},
+  journal   = {J. R. Stat. Soc. Series B Stat. Methodol.},
+  year      = {2001},
+  volume    = {63},
+  pages     = {261ï¿--275},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@BOOK{Priestley1981,
+  title = {Spectral Analysis and Time Series},
+  publisher = {Academic Press, London.},
+  year = {1981},
+  author = {Priestley, M.B.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Renshaw2002,
+  author    = {E. Renshaw},
+  title     = {Two-dimensional spectral analysis for marked point processes},
+  journal   = {Biom. J.},
+  year      = {2002},
+  volume    = {44},
+  pages     = {718--745},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@Article{Renshaw1997,
+  author    = {Renshaw, E.},
+  title     = {Spectral techniques in spatial analysis},
+  journal   = {For. Ecol. Manage.},
+  year      = {1997},
+  volume    = {94},
+  pages     = {165-174},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@ARTICLE{Renshaw1984,
+  author = {Renshaw, E. and Ford, E.D.},
+  title = {The description of spatial pattern using two-dimensional spectral
+	analysis},
+  journal = {Vegetatio},
+  year = {1984},
+  volume = {56},
+  pages = {75-85},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Renshaw1983,
+  author    = {E. Renshaw and E. D. Ford},
+  title     = {The interpretation of process from pattern using two-dimensional spectral analysis: {M}ethods and problems of interpretation},
+  journal   = {Appl. Stat.},
+  year      = {1983},
+  volume    = {32},
+  pages     = {51--63},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@PHDTHESIS{Rikken1993,
+  author = {Rikken, M.G.J. and Van Rijn, R.P.G.},
+  title = {Soil pollution with heavy metals - an inquiry into spatial variation,
+	cost of mapping and the risk evaluation of copper, cadmium, lead
+	and zinc in the floodplains of the Meuse west of Stein, the Netherlands},
+  school = {Doctoraalveldwerkverslag, Dept. of Physical Geography, Utrecht University},
+  year = {1993},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{ripley:76,
+  author    = {Ripley, B. D.},
+  title     = {The second-order analysis of stationary point processes},
+  journal   = {J. Appl. Probab.},
+  year      = {1976},
+  volume    = {13},
+  pages     = {255-266},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Ripley1976,
+  author    = {Ripley, B. D.},
+  title     = {The second-order analysis of stationary point processes},
+  journal   = {J. Appl. Probab.},
+  year      = {1976},
+  volume    = {13},
+  pages     = {255-266},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@INPROCEEDINGS{Rodriguez2015,
+  author = {Rodr{\'i}guez-Cort{\'e}s, F.J. and Mishra, A.K. and Mateu, J. and
+	Gonz{\'a}lez, J.A.},
+  title = {A coherence measure of association between LISA functions in spatial
+	point patterns},
+  booktitle = {Proceedings of XXXV National Congress of SEIO IX Conference of Public
+	Statistics},
+  year = {2015},
+  editor = {Ugarte, M.D. and Militino, A.F. and Santafe, G.},
+  publisher = {Public University of Navarre, Pamplona, Spain},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Rosenberg1989,
+  author    = {Rosenberg, J.R. and Amjad, A.M. and Breeze, P. and Brillinger, D.R. and Halliday, D.M.},
+  title     = {The Fourier approach to the identification of functional coupling between neuronal spike trains},
+  journal   = {Prog. Biophys. Mol. Biol.},
+  year      = {1989},
+  volume    = {53},
+  pages     = {1-31},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@Article{Saura2006,
+  author    = {F. Saura and J. Mateu},
+  title     = {Estimating Mark Functions Through Spectral Analysis for Marked Point Patterns},
+  journal   = {Commun. Stat. Theory Methods},
+  year      = {2006},
+  volume    = {35},
+  number    = {5},
+  pages     = {861-885},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@ARTICLE{Schlather2001,
+  author = {Schlather, Martin},
+  title = {On the second-order characteristics of marked point processes},
+  journal = {Bernoulli},
+  year = {2001},
+  volume = {7},
+  pages = {99--117},
+  number = {1},
+  month = {02},
+  fjournal = {Bernoulli},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@Article{Schlather2004,
+  author    = {M. Schlather and P. Riberio and P. Diggle},
+  title     = {Detecting Dependence between Marks and Locations of Marked Point Processes},
+  journal   = {J. R. Stat. Soc. Series B Stat. Methodol.},
+  year      = {2004},
+  volume    = {66},
+  pages     = {79--93},
+  owner     = {mattandi},
+  timestamp = {2016.01.22},
+}
+
+@Article{Schweder1970,
+  author    = {Tore Schweder},
+  title     = {Composable markov processes},
+  journal   = {J. Appl. Prob.},
+  year      = {1970},
+  volume    = {7},
+  number    = {2},
+  pages     = {400-410},
+  owner     = {mattandi},
+  timestamp = {2014.05.09},
+}
+
+@Article{Shimatani2001,
+  author    = {Shimatani, K.},
+  title     = {Multivariate point processes and spatial variation of species diversity},
+  journal   = {For. Ecol. Manage},
+  year      = {2001},
+  volume    = {142},
+  pages     = {215-229},
+  owner     = {mattandi},
+  timestamp = {2016.05.29},
+}
+
+@ARTICLE{Shirota2016,
+  author = {{Shirota}, S. and {Gelfand}, A.~E.},
+  title = {{Approximate Marginal Posterior for Log Gaussian Cox Processes}},
+  journal = {ArXiv e-prints},
+  year = {2016},
+  month = jun,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160607984S},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@Article{SnijdersEtAl2010,
+  author    = {Snijders, TAB and Van de Bunt, GG and Steglich, CEG},
+  title     = {Introduction to actor-based models for network dynamics.},
+  journal   = {Soc. Net.},
+  year      = {2010},
+  volume    = {32},
+  pages     = {44--60},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{SnijdersEtAl2010,
+  author    = {Snijders, TAB and Van de Bunt, GG and Steglich, CEG},
+  title     = {Introduction to actor-based models for network dynamics.},
+  journal   = {Soc. Net.},
+  year      = {2010},
+  volume    = {32},
+  pages     = {44--60},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@BOOK{Spirtes2000,
+  title = {Causation, Prediction, and Search},
+  publisher = {Cambridge. Mass.: MIT Press},
+  year = {2000},
+  author = {Peter Spirtes},
+  address = {Cambridge. Mass.},
+  edition = {2. ed.},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@BOOK{Stoyan1995,
+  title = {Stochastic Geometry and Its Applications},
+  publisher = {Wiley, Chichester},
+  year = {1995},
+  author = {D. Stoyan and W. S. Kendall and J. Mecke},
+  edition = {Second},
+  owner = {mattandi},
+  timestamp = {2016.01.22}
+}
+
+@BOOK{StoyanStoyan1994,
+  title = {Fractals, Random Shapes, and Point Fields : Methods of Geometrical
+	Statistics},
+  publisher = {Wiley},
+  year = {1994},
+  author = {Stoyan, Dietrich and Stoyan, Helga},
+  address = {Chichester, New York},
+  owner = {mattandi},
+  timestamp = {2016.10.28}
+}
+
+@Article{Stoyan2000,
+  author    = {D. Stoyan and O. W\"{a}lder},
+  title     = {On variograms in point process statistics, II: Models for markings and ecological interpretation},
+  journal   = {Biom. J.},
+  year      = {2000},
+  volume    = {42},
+  pages     = {171--187},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Tao2016,
+  author  = {Tao, Ran and Thill, Jean-Claude},
+  title   = {Spatial Cluster Detection in Spatial Flow Data},
+  journal = {Geogr. Anal.},
+  year    = {2016},
+  volume  = {48},
+  number  = {4},
+  pages   = {355-372},
+}
+
+@Article{Terres2016,
+  author    = {Maria A. Terres and Alan E. Gelfand},
+  title     = {Spatial process gradients and their use in sensitivity analysis for environmental processes},
+  journal   = {J. Stat. Plan. Inference},
+  year      = {2016},
+  volume    = {168},
+  pages     = {106 - 119},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{VerHoef:Peterson:2010,
+  author    = {Ver Hoef, J. and Peterson, E.},
+  title     = {A moving average approach for spatial statistical models of stream networks},
+  journal   = {J Am Stat Assoc},
+  year      = {2010},
+  volume    = {105},
+  pages     = {6-18},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{VerHoef:Peterson:2010,
+  author    = {Ver Hoef, J. and Peterson, E.},
+  title     = {A moving average approach for spatial statistical models of stream networks},
+  journal   = {J. Am. Stat. Assoc.},
+  year      = {2010},
+  volume    = {105},
+  pages     = {6-18},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{VerHoef:Peterson:Theobald2006,
+  author    = {Ver Hoef, J. and Peterson, E. and Theobald, D.},
+  title     = {Spatial statistical models that use flow and stream distance},
+  journal   = {Environ. Ecol. Stat.},
+  year      = {2006},
+  volume    = {13},
+  number    = {4},
+  pages     = {449-464},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{VerHoef:Peterson:Theobald2006,
+  author    = {Ver Hoef, J. and Peterson, E. and Theobald, D.},
+  title     = {Spatial statistical models that use flow and stream distance},
+  journal   = {Environ. Ecol. Stat.},
+  year      = {2006},
+  volume    = {13},
+  number    = {4},
+  pages     = {449-464},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@BOOK{Watson1944,
+  title = {A treatise on the theory of Bessel functions},
+  publisher = {Cambrigde University Press, Cambridge.},
+  year = {1944},
+  author = {Watson, G.N.},
+  owner = {mattandi},
+  timestamp = {2016.05.29}
+}
+
+@Article{Watts:1999,
+  author    = {Watts, D.J.},
+  title     = {Networks, dynamics, and the small-world phenomenon.},
+  journal   = {Am. J. Sociol.},
+  year      = {1999},
+  volume    = {105},
+  pages     = {493-527},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@Article{Watts:1999,
+  author    = {Watts, D.J.},
+  title     = {Networks, dynamics, and the small-world phenomenon.},
+  journal   = {Am. J. Sociol.},
+  year      = {1999},
+  volume    = {105},
+  pages     = {493-527},
+  owner     = {mattandi},
+  timestamp = {2016.02.03},
+}
+
+@BOOK{Whittaker2008,
+  title = {Grapical Models in Applied Multivariate Statistics},
+  publisher = {John Wiley \& Sons},
+  year = {2008},
+  author = {Whittaker, J. C.},
+  owner = {mattandi},
+  timestamp = {2013.12.28}
+}
+
+@Article{Wiegand2007,
+  author    = {Wiegand, Thorsten and Gunatilleke,Savithri and Gunatilleke, Nimal},
+  title     = {Species Associations in a Heterogeneous Sri Lankan Dipterocarp Forest.},
+  journal   = {Am. Nat.},
+  year      = {2007},
+  volume    = {170},
+  number    = {4},
+  pages     = {E77-E95},
+  owner     = {mattandi},
+  timestamp = {2016.10.28},
+}
+
+@Article{Xi2008,
+  author  = {Xi, Weimin and Peet, Robert K. and Urban, Dean L.},
+  title   = {Changes in forest structure, species diversity and spatial pattern following hurricane disturbance in a Piedmont North Carolina forest, USA},
+  journal = {J. Plant Ecol.},
+  year    = {2008},
+  volume  = {1},
+  number  = {1},
+  pages   = {43-57},
+}
+
+@Article{Yamada2010,
+  author  = {Yamada, Ikuho and Thill, Jean-Claude},
+  title   = {Local Indicators of Network-Constrained Clusters in Spatial Patterns Represented by a Link Attribute},
+  journal = {Ann. Assoc. Am. Geogr.},
+  year    = {2010},
+  volume  = {100},
+  number  = {2},
+  pages   = {269-285},
+}
+
+@Article{Yamada2007,
+  author    = {Yamada, Ikuho and Thill, Jean-Claude},
+  title     = {Local Indicators of Network-Constrained Clusters in Spatial Point Patterns},
+  journal   = {Geogr. Anal.},
+  year      = {2007},
+  volume    = {39},
+  number    = {3},
+  pages     = {268-292},
+  publisher = {Blackwell Publishing Inc},
+}
+
+@Article{Yu2016,
+  author  = {Wenhao Yu},
+  title   = {Spatial co-location pattern mining for location-based services in road networks},
+  journal = {Expert. Syst. Appl.},
+  year    = {2016},
+  volume  = {46},
+  pages   = {324-335},
+}
+
+@Article{Yu2015,
+  author  = {Wenhao Yu and Tinghua Ai and Shiwei Shao},
+  title   = {The analysis and delimitation of Central Business District using network kernel density estimation},
+  journal = {J. Transp. Geogr.},
+  year    = {2015},
+  volume  = {45},
+  pages   = {32-47},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
