@@ -1,9 +1,4 @@
-\documentclass{statsoc}
-\usepackage[]{graphicx}
-\usepackage[]{color}
-\let\proof\relax 
-\let\endproof\relax
-
+\documentclass{statsoc}\usepackage[]{graphicx}\usepackage[]{color}
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -54,16 +49,6 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt}
-\usepackage{amsfonts,epsfig,eurosym, amsmath, amsthm,  blindtext, enumitem}
-\usepackage[latin1]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{pdfsync}
-\usepackage{natbib}
-\usepackage{rotating}
-\usepackage[margin=40pt,font=small,labelfont=bf,format=plain,indention=0cm,textfont=it]{caption}
-\usepackage[normalem]{ulem}
-\usepackage{bbm}
-\usepackage{url}
 
 
 %======================================================%
@@ -73,22 +58,24 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 %  My Packages and Commands %
 
-%\usepackage{fullpage}
-\usepackage{setspace}
-\usepackage[left=1in,top=1in,right=1in]{geometry}
-\pdfpagewidth 8.5in
-\pdfpageheight 11in 
-\setlength{\textheight}{9in}
+%\usepackage{geometry}
+\usepackage{fullpage}
+%\usepackage{setspace}
+%\usepackage[left=1in,top=1in,right=1in]{geometry}
+%\pdfpagewidth 8.5in
+%\pdfpageheight 11in 
 
 
 % BIBLIOGRAPHY
 \usepackage[authoryear]{natbib}
 \bibpunct{(}{)}{;}{a}{}{,}
-%\linespread{1.5}
+\linespread{1.5}
 
 \long\def\symbolfootnote[#1]#2{\begingroup%
 \def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
 
+
+\usepackage{amssymb, amsmath, blindtext, enumitem}
 
 
 %============================================
@@ -312,16 +299,16 @@
 \newcommand{\benum}{\begin{enumerate}\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
 \newcommand{\eenum}{\end{enumerate}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
 
 %\lhead{\footnotesize \parbox{11cm}{Custom left-head-note} }
-\cfoot{}
-\lfoot{\footnotesize \parbox{11cm}{}}
-\rfoot{\footnotesize Page \thepage\ }
+%\cfoot{}
+%\lfoot{\footnotesize \parbox{11cm}{}}
+%\rfoot{\footnotesize Page \thepage\ }
 %\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
 %\renewcommand\headheight{24pt}
-\renewcommand\footrulewidth{0.4pt}
+%\renewcommand\footrulewidth{0.4pt}
 
 
 \usepackage[colorlinks=false,
@@ -348,16 +335,16 @@
 %============================================
 %============================================
 
-\title[Modeling dependencies in multivariate seabird distributions]{Modeling dependencies in multivariate seabird distributions: linking spatial dependence graph models to centrality measures}
-\author[Author 1 {\it et al.}]{Author 1}
+\title[Graphical modeling of seabird distributions]{Graphical modeling of seabird distributions}
+\author[Author 1 {\it et al.}]{Matthias Eckhardt}
 \address{Affiliation,
 City,
          Country.}
 \email{Author@emailaddress.com}
-\author{Author 2}
-\address{Affiliation,
-         City,
-         Country.}
+\author{Earvin Balderama}
+\address{Loyola University Chicago,
+         Chicago, IL,
+         USA.}
          
 
 
@@ -365,6 +352,7 @@ City,
 
 %============================================
 %============================================
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}%\linenumbers
 %============================================
@@ -385,6 +373,16 @@ City,
 %============================================
 \section{Introduction}
 %============================================
+
+
+Information on the distribution of sea birds, especially in the form of maps, is of particular interest to ecologists, environmentalists and policy-makers. Maps conveying the spatial and temporal distribution over the US Mid- and Northeast-Atlantic ocean regions were created by Balderama et al.~(2016) for individual species of sea bird and sea duck. 
+
+It is generally known that species distributions are not independent. The occurrence of a sea bird species in a particular location is affected (either positively or negatively) by the occurrence of other species in the same location. 
+
+This is very important in terms of Thus, external factors that may cause changes to the distribution of a single species will undoubtedly have effects on the distribution of other species. Determining these associations between different species has been difficult (CITATIONS), especially when trying to associate many species all at once.
+
+However, a multivariate analysis of sea bird distribution would be very useful in 
+
 
 \begin{itemize}
 \item We estimate the conditional spatial dependence structure between different seabird species

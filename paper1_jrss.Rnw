@@ -8,18 +8,18 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 %  My Packages and Commands %
 
-%\usepackage{fullpage}
-\usepackage{setspace}
-\usepackage[left=1in,top=1in,right=1in]{geometry}
-\pdfpagewidth 8.5in
-\pdfpageheight 11in 
-\setlength{\textheight}{9in}
+%\usepackage{geometry}
+\usepackage{fullpage}
+%\usepackage{setspace}
+%\usepackage[left=1in,top=1in,right=1in]{geometry}
+%\pdfpagewidth 8.5in
+%\pdfpageheight 11in 
 
 
 % BIBLIOGRAPHY
 \usepackage[authoryear]{natbib}
 \bibpunct{(}{)}{;}{a}{}{,}
-%\linespread{1.5}
+\linespread{1.5}
 
 \long\def\symbolfootnote[#1]#2{\begingroup%
 \def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
@@ -249,16 +249,16 @@
 \newcommand{\benum}{\begin{enumerate}\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
 \newcommand{\eenum}{\end{enumerate}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
 
 %\lhead{\footnotesize \parbox{11cm}{Custom left-head-note} }
-\cfoot{}
-\lfoot{\footnotesize \parbox{11cm}{}}
-\rfoot{\footnotesize Page \thepage\ }
+%\cfoot{}
+%\lfoot{\footnotesize \parbox{11cm}{}}
+%\rfoot{\footnotesize Page \thepage\ }
 %\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
 %\renewcommand\headheight{24pt}
-\renewcommand\footrulewidth{0.4pt}
+%\renewcommand\footrulewidth{0.4pt}
 
 
 \usepackage[colorlinks=false,
@@ -286,15 +286,15 @@
 %============================================
 
 \title[Graphical modeling of seabird distributions]{Graphical modeling of seabird distributions}
-\author[Author 1 {\it et al.}]{Author 1}
+\author[Author 1 {\it et al.}]{Matthias Eckhardt}
 \address{Affiliation,
 City,
          Country.}
 \email{Author@emailaddress.com}
-\author{Author 2}
-\address{Affiliation,
-         City,
-         Country.}
+\author{Earvin Balderama}
+\address{Loyola University Chicago,
+         Chicago, IL,
+         USA.}
          
 
 
@@ -302,6 +302,7 @@ City,
 
 %============================================
 %============================================
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}%\linenumbers
 %============================================
 %============================================
@@ -310,10 +311,10 @@ City,
 
 %============================================
 \begin{abstract}
-  Graphical modeling of seabird distributions.
+  Graphical modeling of seabird distributions. Simultaneous estimation of conditional spatial interrelation for a subset of $79$ seabird species by means of a spatial dependence graph model (SDGM). Linkage to Social network analysis toolbox to detect the most influential species (in term of importance within the estimated SDGM)  
 \end{abstract}
 
-\keywords{Graphical modeling, Marked point process, Seabird distribution}
+\keywords{Graphical modeling, Species importance, Marked point process, Network centrality measures, Seabird distribution}
 %============================================
 
 
@@ -323,12 +324,67 @@ City,
 %============================================
 
 
+Information on the distribution of sea birds, especially in the form of maps, is of particular interest to ecologists, environmentalists and policy-makers. Maps conveying the spatial and temporal distribution over the US Mid- and Northeast-Atlantic ocean regions were created by Balderama et al.~(2016) for individual species of sea bird and sea duck. 
+
+It is generally known that species distributions are not independent. The occurrence of a sea bird species in a particular location is affected (either positively or negatively) by the occurrence of other species in the same location. 
+
+This is very important in terms of Thus, external factors that may cause changes to the distribution of a single species will undoubtedly have effects on the distribution of other species. Determining these associations between different species has been difficult (CITATIONS), especially when trying to associate many species all at once.
+
+However, a multivariate analysis of sea bird distribution would be very useful in 
+
+
+\begin{itemize}
+\item We estimate the conditional spatial dependence structure between different seabird species
+\item that is, structural dependence between two patterns conditional on all remaining patterns
+\item so not interrelation between points $i$ and $j$, but interrelations between components $i$ and $j$ where $i$ and $j$ are sets of points within a bounded planar region.
+\item edges express the partial (pairwise) interrelation between two species conditional on al remaining species
+\item we omit to implement a formal test statistic as we assume that dependence might vary between species
+\item we set a threshold indicating weak/ intermediate partial effects
+\item we combine spatial dependence graph model with importance tools of social network analysis
+\item info can provide important insides for species conservation
+\item eg which are the most important species in the overall graph
+\end{itemize}
+
 %============================================
 \section{Methods}
 %============================================
 
+Primary idea by \cite{Eckardt2016}, extension to multivariate spp with quantitative marks by \cite{Eckardt2016b}
+
+Analysis was carried out using the \texttt{sdgm} R package of \cite{Eckardt2016a}.
+
+%============================================
+\section{Data}
+%============================================
+
+species: 
+Herring gull $(n=3978)$, greater shearwater $(n=3732)$,
+northern gannet $(n=3451)$,great black-backed gull $(n=3319)$,Wilson's storm-petrel $(n=2746)$,common loon $(n=1900)$,northern fulmar, $(n=1688)$,red-throated loon $(n=1400)$,Cory's shearwater $(n=1138)$, Leach's storm-petrel $(n=1005)$,unidentified gull $(n=984)$,common tern $(n=982)$,black-legged kittiwake $(n=971)$,dovekie $(n=962)$,razorbill $(n=908)$, sooty shearwater $(n=871)$, laughing gull $(nl=856)$, long-tailed duck $(n=851)$,unidentified loon $(n=754)$, Bonaparte's gull $(n=708)$,unidentified scoter $(n=703)$, surf scoter $(n=678)$,
+black scoter $(n=669)$, unidentified tern $(n=619)$,
+unidentified alcid $(n=555)$, unidentified large gull $(n=553)$, unidentified bird $(n=543)$, ring-billed gull $(n=530)$, common eider $(n=528)$, white-winged scoter $(n=522)$, atlantic puffin $(n=403)$, red phalarope $(n=394)$, unidentified storm-petrel $(n=379)$, manx shearwater $(n=374)$, unidentified shearwater $(n=364)$, double-crested cormorant $(n=354)$, unidentified large alcid (razorbill or murre) $(n=330)$, unidentified small gull $(n=313)$,ubbg $(n=299)$,unidentified phalarope $(n=292)$,pomarine jaeger $(n=287)$,red-breasted merganser $(n=220)$,red-necked phalarope $(n=207)$,royal tern $(n=207)$,dark scoter $(n=199)$,unidentified small tern $(n=184)$,south polar skua $(n=169)$,bufflehead $(n=159)$,parasitic jaeger $(n=154)$,common murre $(n=153)$,unidentified diving/sea duck $(n=121)$,Forster's tern $(n=119)$,great skua $(n=117)$,unidentified merganser $(n=117)$,roseate tern $(n=115)$,arctic tern $(n=103)$,barn swallow $(n=99)$,unidentified cormorant $(n=99)$,lesser black-backed gull $(n=97)$,unidentified passerine $(n=97)$,brown pelican $(n=92)$,unidentified large tern $(n=91)$,unidentified skua $(n=89)$,unidentified shorebird $(n=87)$,Audubon's shearwater $(n=86)$,thick-billed murre $(n=83)$,common goldeneye $(n=82)$,unidentified jaeger $(n=78)$,black guillemot $(n=75)$,unidentified murre $(n=73)$,horned grebe $(n=65)$,unidentified grebe $(n=63)$,least tern $(n=61)$,unidentified scaup $(n=52)$,
+red-necked grebe $(n=49)$,American black duck $(n=47)$,unidentified goldeneye $(n=34)$,band-rumped storm-petrel $(n=23)$ and, finally,
+black-capped petrel $(n=3)$.
+
+While some marine bird species such as various types of gulls have been sighted at numerous locations, other species occurred only very rarely. At the same time, as we defined a minimum of at least $50$ marine birds per species as inclusion criteria, this limited number of locations equivalently implies that certain marine bird species appeared in groupings rather than as isolated birds or occurred only in a geographically strictly-limited habitat. An example of such only rarely observed species are black-capped petrels whose $50$ counted sighting have only been recorded at $n=3$ different locations. This reflects our expectations, as black-capped petrels have been classified as endangered species by the IUCN Red List of Threatened Species. Discovering the relevant subset of species whose spatial occurrence is linked to the spatial pattern of any endangered species  by means of a SDGM might provide new insights into multivariate interdependencies.  This new insights might provide important knowledge for the conservation of endangered species and might assist to understand such phenomena from a global perspective on different natural environments.    
+
+%============================================
+\section{Results}
+%============================================
+
+$\star$ in general: important for species conservation: e.g. black-capped petrels only linked to unidentified goldeneyes, both listed as threatened species by IUCN. 
 
 
+$\star$ most important species by means of the degree centrality are unidentified alcids, Arctic terns, barn swallows, red phalaropes, dovekies, buffleheads, brown pelicans, unidentified mergansers and great black-backed gulls.
 
 
+$\star$ these species are most often linked to alternative species (no. adjacent species)
+
+
+$\star$ buffleheads, royal terns, unidentified alcids, Arctic terns, common murres, barn swallows, greater shearwaters, manx shearwaters, Bonaparte's gulls and Northern gannets are the most important species by means of the betweenness centrality.
+
+
+$\star$ these species are most often intermediate species, that is most links from a to b path through these species
+
+\bibliographystyle{rss}
+\bibliography{lit}
 \end{document}
