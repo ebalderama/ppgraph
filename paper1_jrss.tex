@@ -1,54 +1,4 @@
-\documentclass{statsoc}\usepackage[]{graphicx}\usepackage[]{color}
-%% maxwidth is the original width if it is less than linewidth
-%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
-\makeatletter
-\def\maxwidth{ %
-  \ifdim\Gin@nat@width>\linewidth
-    \linewidth
-  \else
-    \Gin@nat@width
-  \fi
-}
-\makeatother
-
-\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
-\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
-\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
-\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
-\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
-\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
-\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
-\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
-\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
-\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
-\let\hlipl\hlkwb
-
-\usepackage{framed}
-\makeatletter
-\newenvironment{kframe}{%
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
-\makeatother
-
-\definecolor{shadecolor}{rgb}{.97, .97, .97}
-\definecolor{messagecolor}{rgb}{0, 0, 0}
-\definecolor{warningcolor}{rgb}{1, 0, 1}
-\definecolor{errorcolor}{rgb}{1, 0, 0}
-\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
-
-\usepackage{alltt}
+\documentclass{statsoc}
 
 
 %======================================================%
@@ -76,6 +26,8 @@
 
 
 \usepackage{amssymb, amsmath, blindtext, enumitem}
+
+\usepackage{longtable}
 
 
 %============================================
@@ -353,7 +305,6 @@ City,
 %============================================
 %============================================
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}%\linenumbers
 %============================================
 %============================================
@@ -374,16 +325,166 @@ City,
 \section{Introduction}
 %============================================
 
+The occurrence of a sea bird species in a particular location is affected (either positively or negatively) by the occurrence of other species in the same location. 
+Thus, external factors that may cause changes to the distribution of a single species will undoubtedly have an effect on the distribution of other species. Determining these associations between different species has been difficult (CITATIONS), especially when trying to associate many species all at once.
 
-Information on the distribution of sea birds, especially in the form of maps, is of particular interest to ecologists, environmentalists and policy-makers. Maps conveying the spatial and temporal distribution over the US Mid- and Northeast-Atlantic ocean regions were created by Balderama et al.~(2016) for individual species of sea bird and sea duck. 
+Quantifying the spatial dependence structure between bird species and environmental covariates is important. While studies have related the spatial distribution of one species with that of a prey or predator species, or of environmental variables acting as proxies for climate \citep{Goyert2014, Goyert2016}, there has been relatively few studies that investigate and utilize measures of inter-species dependence.
 
-It is generally known that species distributions are not independent. The occurrence of a sea bird species in a particular location is affected (either positively or negatively) by the occurrence of other species in the same location. 
+Community models may combine several species, known to have facilitative interactions with each other, into one model \citep{Goyert2016, Sollmann2016}. However, these models treat the observed data the same way as if the observations are of only one species.
 
-This is very important in terms of Thus, external factors that may cause changes to the distribution of a single species will undoubtedly have effects on the distribution of other species. Determining these associations between different species has been difficult (CITATIONS), especially when trying to associate many species all at once.
+Studying the degree of interaction between species may help inform ocean planning. Mapping the distribution of rare and endangered avian species is important when planning the placement of offshore wind farms. Such rare species are obviously difficult to monitor, so finding a more commonly occuring species that is highly dependent with the rare species has ecological importance.
 
-However, a multivariate analysis of sea bird distribution would be very useful in 
+Attempts at modeling between-species interactions are often limited to the bivariate case \citep{Andersen1992, Nightingale2015}. For three or more species, models are usually hindered by computing time due to the estimation of very many interaction parameters \citep{Jalilian2015}. 
+
+Ecological data usually contains spatial observations from multiple species of interest. 
+
+There is a need for fast and practically applicable methods for analysing multivariate point patterns, and is currently a growing but challenging topic for researchers \citep{Moller2016}.
 
 
+
+
+
+Information on the distribution of sea birds, especially in the form of maps, is of particular interest to ecologists, environmentalists and policy-makers. Maps conveying the spatial and temporal distribution over the US Mid- and Northeast-Atlantic ocean regions were created by \cite{Balderama2016} for several individual species of marine birds. 
+
+Models are usually run on inidivudal species. 
+%There is a danger in this, in that it doesn't take into account the dependence structure between species. 
+There is a danger in this in that tt is generally known that species distributions are not independent.
+Maps of the spatial distribution of marine birds undoubetedly have some overlap
+
+
+However, a multivariate analysis of sea bird distribution would be very useful in determining how bird species affect one another's presence. 
+
+This will also help us to categorize observations of unidentified or unknown species to those of identified species.
+
+%It creates a false sense that a species distribution is independent
+
+%Models are usually run on either indivudual species or all-species-combined data. 
+
+
+
+There are several advantages with this approach:
+
+1. These observations are usually removed before analyzing data at the species level. 
+
+Here we include these locations of unknown species and from the results may be able to determine what species they are more likely to be from the resulting network map. 
+
+
+
+%============================================
+\section{Data}
+%============================================
+
+
+
+Data are point locations of marine bird sightings over the Northeast- and Mid-Atlantic coast regions of the United States, as described in \cite{Balderama2016}. The point locations are the longitude and latitude coordinates of the midpoints of line transect segments from boat and aerial surveys between July, 1998 and April, 2014. Species are labelled by its common name and a four-letter species code. Names that include the word ``unidentified'' accommodate birds identified to a family but not to a species. 
+
+Table~\ref{tab:species} shows a summary of the observed data by species code and common name. There are 79 different codes. However, some codes signify an unidentified or partially identified species.
+
+
+
+
+
+
+%\afterpage{
+{\scriptsize
+\begin{longtable}{| l | c | c | c | c | c | c | }
+\caption{Summary of observed data by species code.}
+\label{tab:species}\\
+\hline
+  &   &  &   &   &   &  \\ 
+\textbf{Species code}  & \textbf{Common name}  & \textbf{sightings}  &\textbf{average mark}  &\textbf{}  &\textbf{}  &\textbf{}   \\ 
+\hline
+ABDU &  American Black Duck & 47 & 1.25 &  &  &  \\ 
+ARTE &  Arctic Tern & 103 & 0.94 &  &   &  \\ 
+ATPU &  Atlantic Puffin & 403 & 1.17 &   &  &  \\ 
+AUSH &  Audubon's Shearwater & 86 & 1.20 &   &  &  \\ 
+BRSP &  Band-rumped Storm-petrel & 23   & 0.29 &  &  &  \\ 
+BARS &  Barn Swallow & 99 & 0.34 &  &  &    \\ 
+BCPE &  Black-capped Petrel & 3 & 1.56  &    &  &  \\ 
+BLKI &  Black-legged Kittiwake & 971 & 1.45 &  &  &  \\ 
+BLGU &  Black Guillemot & 75 & 0.42  &  &  &  \\ 
+BLSC &  Black Scoter & 669 & 4.31 &  &   &  \\ 
+BOGU &  Bonaparte's Gull & 708 & 0.99 &  &   &  \\ 
+BRPE &  Brown Pelican & 92 & 0.29 &  &  &   \\ 
+BUFF &  Bufflehead & 159 & 1.86 &  &  &  \\ 
+COEI &  Common Eider & 528 & 59.74 &  &    &  \\ 
+COGO &  Common Goldeneye & 82 & 1.25 &    &  &  \\ 
+COLO &  Common Loon & 1900 & 0.51 &   &  &  \\ 
+COMU &  Common Murre & 153 & 0.88  &   &  &  \\ 
+COTE &  Common Tern & 982 & 1.80 &  &   &  \\ 
+COSH &  Cory's Shearwater & 1138 & 2.69 &  &  &  \\ 
+DASC &  Dark Scoter (Black or Surf) & 199 & 2.09 &  &  &   \\ 
+DCCO &  Double-crested Cormorant & 354 & 2.37 &  &  &  \\ 
+DOVE &  Dovekie & 962 & 5.73 &  &  &    \\ 
+FOTE &  Forster's Tern & 119 & 0.52 &  &    &  \\ 
+GBBG &  Great Black-backed Gull & 3319 & 2.46  &  &   &  \\ 
+UBBG &  Great or Lesser Black-backed Gull & 299 & 0.18 &  &   &  \\ 
+GRSH &  Great Shearwater & 3732 & 8.99 &  &  &   \\ 
+GRSK &  Great Skua & 117 & 0.61 &  &  & \\ 
+HERG &  Herring Gull & 3978 & 2.71 &  &  &  \\ 
+HOGR &  Horned Grebe & 65 & 0.07 &  &  &  \\ 
+LAGU &  Laughing Gull & 856  & 0.80 &  &   &  \\ 
+LESP &  Leach's Storm-petrel & 1005 & 3.63 &  &  &  \\ 
+LETE &  Least Tern & 61 & 0.27 &  &  &  \\ 
+LBBG &  Lesser Black-backed Gull & 97 & 0.30 &  &  &  \\ 
+LTDU &  Long-tailed Duck & 851 & 8.64 &  &  &    \\ 
+MASH &  Manx Shearwater & 374 & 0.92 &  &  &    \\ 
+NOFU &  Northern Fulmar & 1688 & 5.25 &  &  &   \\ 
+NOGA &  Northern Gannet & 3451 & 2.51 &  &  &   \\ 
+PAJA &  Parasitic Jaeger & 154 & 0.37 &  &  &   \\ 
+POJA &  Pomarine Jaeger & 287 & 0.70 &  &  &   \\ 
+RAZO &  Razorbill & 908 & 1.26 &  &  &   \\ 
+REPH &  Red Phalarope & 394 & 8.64 &  &  &  \\ 
+RBME &  Red-breasted Merganser & 220 & 0.78 &  &  &  \\ 
+RNGR &  Red-necked Grebe & 49 & 0.11 &  &  &    \\ 
+RNPH &  Red-necked Phalarope & 207 & 7.65 &  &  &    \\ 
+RTLO &  Red-throated Loon & 1400 & 0.59 &  &  &   \\ 
+RBGU &  Ring-billed Gull & 530 & 0.71 &  &  &   \\ 
+ROST &  Roseate Tern & 115 & 0.88 &  &  &    \\ 
+ROYT &  Royal Tern & 207 & 0.22 &  &  &    \\ 
+SOSH &  Sooty Shearwater & 871 & 6.69 &  &  &   \\ 
+SPSK &  South Polar Skua & 169 & 0.74  &  &  &  \\ 
+SUSC &  Surf Scoter & 678 & 4.96 &  &  &   \\ 
+TBMU &  Thick-billed Murre & 83 & 1.33 & &  &  \\ 
+UNAL &  Unidentified Alcid & 555 & 0.71 &  &  &  \\ 
+UNBI &  Unidentified Bird & 543 & 1.06 &  &  &  \\ 
+UNCO &  Unidentified Cormorant & 99 & 0.43  &  &  &  \\ 
+UNDD &  Unidentified Diving/Sea Duck & 121 & 0.80 &  &  &  \\ 
+UNGO &  Unidentified Goldeneye & 34 & 2.29 &  &  &  \\ 
+UNGR &  Unidentified Grebe & 63 & 0.06 &  &  &  \\ 
+UNGU &  Unidentified Gull & 984 & 2.98 &  &  &  \\ 
+UNJA &  Unidentified Jaeger & 78 & 0.46 & &  &  \\ 
+UNLA &  Unidentified Large Alcid (Razorbill or Murre) & 330 & 0.84 &  &  &  \\ 
+UNLG &  Unidentified Large Gull & 553 & 3.51  &  &  &  \\ 
+UNLT &  Unidentified Large Tern & 91 & 0.35 & &  &  \\ 
+UNLO &  Unidentified Loon & 754 & 0.64 &  &  &  \\ 
+UNME &  Unidentified Merganser & 117 & 0.97 &  &  &  \\ 
+UNMU &  Unidentified Murre & 73 & 1.98 & &  &  \\ 
+UNPA &  Unidentified Passerine & 97 & 0.47 &  &  &  \\ 
+UNPH &  Unidentified Phalarope & 292 & 28.47 &  &  &  \\ 
+SCAU &  Unidentified Scaup & 52 & 11.02  & &  &  \\ 
+UNSC &  Unidentified Scoter & 703 & 26.64 &  &  &  \\ 
+UNSH &  Unidentified Shearwater & 364 & 3.80 & &  &  \\ 
+SHOR &  Unidentified Shorebird & 87 & 1.96 &  &  &  \\ 
+UNSK &  Unidentified Skua & 89 & 0.67 &  &  &  \\ 
+UNSG &  Unidentified Small Gull & 313 & 0.38  &  &  &  \\ 
+UNST &  Unidentified Small Tern & 184 & 0.18 &  &  &  \\ 
+UNSP &  Unidentified Storm-petrel & 379 & 40.11 & &  &  \\ 
+UNTE &  Unidentified Tern & 619 & 2.62 &  &  &  \\ 
+WWSC &  White-winged Scoter & 522 & 2.78 &  &  &   \\ 
+WISP &  Wilson's Storm-petrel & 2746 & 6.88 &  &  &  \\ 
+\hline 
+\end{longtable}}
+%}
+
+
+While some marine bird species such as various types of gulls have been sighted at numerous locations, other species occurred only very rarely. At the same time, as we defined a minimum of at least $50$ marine birds per species as inclusion criteria, this limited number of locations equivalently implies that certain marine bird species appeared in groupings rather than as isolated birds or occurred only in a geographically strictly-limited habitat. An example of such only rarely observed species are black-capped petrels whose $50$ counted sighting have only been recorded at $n=3$ different locations. This reflects our expectations, as black-capped petrels have been classified as endangered species by the IUCN Red List of Threatened Species. Discovering the relevant subset of species whose spatial occurrence is linked to the spatial pattern of any endangered species  by means of a SDGM might provide new insights into multivariate interdependencies.  This new insights might provide important knowledge for the conservation of endangered species and might assist to understand such phenomena from a global perspective on different natural environments.    
+
+
+
+%============================================
+\section{Methods}
+%============================================
 \begin{itemize}
 \item We estimate the conditional spatial dependence structure between different seabird species
 \item that is, structural dependence between two patterns conditional on all remaining patterns
@@ -396,27 +497,9 @@ However, a multivariate analysis of sea bird distribution would be very useful i
 \item eg which are the most important species in the overall graph
 \end{itemize}
 
-%============================================
-\section{Methods}
-%============================================
-
 Primary idea by \cite{Eckardt2016}, extension to multivariate spp with quantitative marks by \cite{Eckardt2016b}
 
 Analysis was carried out using the \texttt{sdgm} R package of \cite{Eckardt2016a}.
-
-%============================================
-\section{Data}
-%============================================
-
-species: 
-Herring gull $(n=3978)$, greater shearwater $(n=3732)$,
-northern gannet $(n=3451)$,great black-backed gull $(n=3319)$,Wilson's storm-petrel $(n=2746)$,common loon $(n=1900)$,northern fulmar, $(n=1688)$,red-throated loon $(n=1400)$,Cory's shearwater $(n=1138)$, Leach's storm-petrel $(n=1005)$,unidentified gull $(n=984)$,common tern $(n=982)$,black-legged kittiwake $(n=971)$,dovekie $(n=962)$,razorbill $(n=908)$, sooty shearwater $(n=871)$, laughing gull $(nl=856)$, long-tailed duck $(n=851)$,unidentified loon $(n=754)$, Bonaparte's gull $(n=708)$,unidentified scoter $(n=703)$, surf scoter $(n=678)$,
-black scoter $(n=669)$, unidentified tern $(n=619)$,
-unidentified alcid $(n=555)$, unidentified large gull $(n=553)$, unidentified bird $(n=543)$, ring-billed gull $(n=530)$, common eider $(n=528)$, white-winged scoter $(n=522)$, atlantic puffin $(n=403)$, red phalarope $(n=394)$, unidentified storm-petrel $(n=379)$, manx shearwater $(n=374)$, unidentified shearwater $(n=364)$, double-crested cormorant $(n=354)$, unidentified large alcid (razorbill or murre) $(n=330)$, unidentified small gull $(n=313)$,ubbg $(n=299)$,unidentified phalarope $(n=292)$,pomarine jaeger $(n=287)$,red-breasted merganser $(n=220)$,red-necked phalarope $(n=207)$,royal tern $(n=207)$,dark scoter $(n=199)$,unidentified small tern $(n=184)$,south polar skua $(n=169)$,bufflehead $(n=159)$,parasitic jaeger $(n=154)$,common murre $(n=153)$,unidentified diving/sea duck $(n=121)$,Forster's tern $(n=119)$,great skua $(n=117)$,unidentified merganser $(n=117)$,roseate tern $(n=115)$,arctic tern $(n=103)$,barn swallow $(n=99)$,unidentified cormorant $(n=99)$,lesser black-backed gull $(n=97)$,unidentified passerine $(n=97)$,brown pelican $(n=92)$,unidentified large tern $(n=91)$,unidentified skua $(n=89)$,unidentified shorebird $(n=87)$,Audubon's shearwater $(n=86)$,thick-billed murre $(n=83)$,common goldeneye $(n=82)$,unidentified jaeger $(n=78)$,black guillemot $(n=75)$,unidentified murre $(n=73)$,horned grebe $(n=65)$,unidentified grebe $(n=63)$,least tern $(n=61)$,unidentified scaup $(n=52)$,
-red-necked grebe $(n=49)$,American black duck $(n=47)$,unidentified goldeneye $(n=34)$,band-rumped storm-petrel $(n=23)$ and, finally,
-black-capped petrel $(n=3)$.
-
-While some marine bird species such as various types of gulls have been sighted at numerous locations, other species occurred only very rarely. At the same time, as we defined a minimum of at least $50$ marine birds per species as inclusion criteria, this limited number of locations equivalently implies that certain marine bird species appeared in groupings rather than as isolated birds or occurred only in a geographically strictly-limited habitat. An example of such only rarely observed species are black-capped petrels whose $50$ counted sighting have only been recorded at $n=3$ different locations. This reflects our expectations, as black-capped petrels have been classified as endangered species by the IUCN Red List of Threatened Species. Discovering the relevant subset of species whose spatial occurrence is linked to the spatial pattern of any endangered species  by means of a SDGM might provide new insights into multivariate interdependencies.  This new insights might provide important knowledge for the conservation of endangered species and might assist to understand such phenomena from a global perspective on different natural environments.    
 
 %============================================
 \section{Results}
@@ -435,6 +518,19 @@ $\star$ buffleheads, royal terns, unidentified alcids, Arctic terns, common murr
 
 
 $\star$ these species are most often intermediate species, that is most links from a to b path through these species
+
+
+
+%============================================
+\section{Discussion}
+%============================================
+
+Methods for studying multivariate species distributions are still not well developed. Future research may focus on niche partitioning and finding common areas of species overlap.
+
+%%
+Identifying ecologically important areas for community assemblages is important in marine spatial planning (Ehler and Douvere 2009), and our study suggests that a diverse set of species may attract (or repel) each other to (or from) feeding areas. We recommend a synthesis of community and ecosystem approaches in applied conservation management, since facilitation and competition fundamentally shape dynamic environmental processes.
+
+
 
 \bibliographystyle{rss}
 \bibliography{lit}

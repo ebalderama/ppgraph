@@ -1,8 +1,18 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL: }\fi
+
+\bibitem[{Andersen(1992)}]{Andersen1992}
+Andersen, M. (1992) Spatial analysis of two-species interactions.
+\newblock \textit{Oecologia}, \textbf{91}, 134--140.
+
+\bibitem[{Balderama et~al.(2016)Balderama, Gardner and Reich}]{Balderama2016}
+Balderama, E., Gardner, B. and Reich, B.~J. (2016) {A spatial-temporal
+  double-hurdle model for extremely over-dispersed avian count datatemporal
+  double-hurdle model for extremely over-dispersed avian count data}.
+\newblock \textit{Spatial Statistics}, \textbf{18}, 263--275.
 
 \bibitem[{Eckardt(2016{\natexlab{a}})}]{Eckardt2016}
 Eckardt, M. (2016{\natexlab{a}}) {Graphical modelling of multivariate spatial
@@ -18,5 +28,44 @@ Eckardt, M. (2016{\natexlab{a}}) {Graphical modelling of multivariate spatial
 {Eckardt}, M. and {Mateu}, J. (2016) Analysing multivariate spatial point
   processes with continuous marks: A graphical modelling approach.
 \newblock \textit{ArXiv e-prints~}.
+
+\bibitem[{Goyert et~al.(2016)Goyert, Gardner, Sollmann, Veit, Gilbert, Connelly
+  and Williams}]{Goyert2016}
+Goyert, H.~F., Gardner, B., Sollmann, R., Veit, R.~R., Gilbert, A.~T.,
+  Connelly, E.~E. and Williams, K.~A. (2016) Predicting the offshore
+  distribution and abundance of marine birds with a hierarchical community
+  distance sampling model.
+\newblock \textit{Ecological Applications}, \textbf{26}, 1797--1815.
+
+\bibitem[{Goyert et~al.(2014)Goyert, Manne and Veit}]{Goyert2014}
+Goyert, H.~F., Manne, L.~L. and Veit, R.~R. (2014) {Facilitative interactions
+  among the pelagic community of temperate migratory terns, tunas and
+  dolphins}.
+\newblock \textit{Oikos}.
+
+\bibitem[{Jalilian et~al.(2015)Jalilian, Guan, Mateu and
+  Waagepetersen}]{Jalilian2015}
+Jalilian, A., Guan, Y., Mateu, J. and Waagepetersen, R. (2015) {Multivariate
+  product-shot-noise Cox point process models}.
+\newblock \textit{Biometrics}, \textbf{71}, 1022--1033.
+
+\bibitem[{M{\o}ller and Waagepetersen(2016)}]{Moller2016}
+M{\o}ller, J. and Waagepetersen, R. (2016) Some recent developments in
+  statistics for spatial point patterns.
+\newblock \textit{Annual Review of Statistics and Its Application}.
+
+\bibitem[{Nightingale et~al.(2015)Nightingale, Illian and
+  King}]{Nightingale2015}
+Nightingale, G.~F., Illian, J.~B. and King, R. (2015) Pairwise interaction
+  point processes for modelling bivariate spatial point patterns in the
+  presence of interaction uncertainty.
+\newblock \textit{Journal of Environmental Statistics}.
+
+\bibitem[{Sollmann et~al.(2016)Sollmann, Gardner, Williams, Gilbert and
+  Veit}]{Sollmann2016}
+Sollmann, R., Gardner, B., Williams, K.~A., Gilbert, A.~T. and Veit, R.~R.
+  (2016) A hierarchical distance sampling model to estimate abundance and
+  covariate associations of species and communities.
+\newblock \textit{Methods in Ecology and Evolution}.
 
 \end{thebibliography}
