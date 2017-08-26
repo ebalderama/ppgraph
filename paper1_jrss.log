@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 JUN 2017 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 AUG 2017 13:02
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **paper1_jrss.tex
 (./paper1_jrss.tex
@@ -164,6 +165,16 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box29
 \enitdp@description=\count121
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip51
@@ -171,7 +182,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip53
 \LTpost=\skip54
 \LTchunksize=\count122
-\LTcapwidth=\dimen112
+\LTcapwidth=\dimen114
 \LT@head=\box30
 \LT@firsthead=\box31
 \LT@foot=\box32
@@ -180,8 +191,36 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@rows=\count124
 \c@LT@tables=\count125
 \c@LT@chunks=\count126
-\LT@p@ftn=\toks22
+\LT@p@ftn=\toks23
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count127
+\lst@gtempboxa=\box34
+\lst@token=\toks24
+\lst@length=\count128
+\lst@currlwidth=\dimen115
+\lst@column=\count129
+\lst@pos=\count130
+\lst@lostspace=\dimen116
+\lst@width=\dimen117
+\lst@newlines=\count131
+\lst@lineno=\count132
+\lst@maxwidth=\dimen118
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count133
+\lst@skipnumbers=\count134
+\lst@framebox=\box35
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
@@ -229,10 +268,6 @@ Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
-)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -242,14 +277,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen113
-\Hy@linkcounter=\count127
-\Hy@pagecounter=\count128
+\@linkdim=\dimen119
+\Hy@linkcounter=\count135
+\Hy@pagecounter=\count136
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count129
+\Hy@SavedSpaceFactor=\count137
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -262,17 +297,17 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count130
+\c@Hy@tempcnt=\count138
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
-\XeTeXLinkMargin=\dimen114
-\Fld@menulength=\count131
-\Field@Width=\dimen115
-\Fld@charsize=\dimen116
+\XeTeXLinkMargin=\dimen120
+\Fld@menulength=\count139
+\Field@Width=\dimen121
+\Fld@charsize=\dimen122
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -282,17 +317,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count132
-\c@Item=\count133
-\c@Hfootnote=\count134
+\Hy@abspage=\count140
+\c@Item=\count141
+\c@Hfootnote=\count142
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
-\Fld@listcount=\count135
-\c@bookmark@seq@number=\count136
+\Fld@listcount=\count143
+\c@bookmark@seq@number=\count144
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -305,37 +340,39 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-(./paper1_jrss.aux)
+(./paper1_jrss.aux
+\statsocwidth@b=\dimen123
+)
 \openout1 = `paper1_jrss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen117
-\scratchbox=\box34
-\nofMPsegments=\count138
-\nofMParguments=\count139
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen118
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count145
+\scratchdimen=\dimen124
+\scratchbox=\box36
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen125
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -351,20 +388,104 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 308.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 312.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 312.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 312.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 308.
-\AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 308.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 312.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@lstlisting=\count151
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring OFF on input line 312.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -372,88 +493,1370 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 308.
-LaTeX Info: Redefining \pageref on input line 308.
-LaTeX Info: Redefining \nameref on input line 308.
+LaTeX Info: Redefining \ref on input line 312.
+LaTeX Info: Redefining \pageref on input line 312.
+LaTeX Info: Redefining \nameref on input line 312.
 
 (./paper1_jrss.out) (./paper1_jrss.out)
 \@outlinefile=\write3
 \openout3 = `paper1_jrss.out'.
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 315.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 316.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 319.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 320.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 316.
+LaTeX Font Info:    Try loading font information for U+msa on input line 320.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 316.
+LaTeX Font Info:    Try loading font information for U+msb on input line 320.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.88043pt too wide) in paragraph at lines 341--342
-[]\OT1/cmr/m/n/10.95 There is a need for fast and prac-ti-cally ap-pli-ca-ble m
-eth-ods for analysing
+) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+
+LaTeX Warning: Reference `Methods' on page 3 undefined on input line 394.
+
+
+LaTeX Warning: Reference `Results' on page 3 undefined on input line 394.
+
+
+LaTeX Warning: Reference `Conclusions' on page 3 undefined on input line 394.
+
+[3]
+Package epstopdf Info: Source file: <BirdsTop20.eps>
+(epstopdf)                    date: 2017-07-23 11:40:20
+(epstopdf)                    size: 20490159 bytes
+(epstopdf)             Output file: <BirdsTop20-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-27 16:38:54
+(epstopdf)                    size: 5324323 bytes
+(epstopdf)             Command: <epstopdf --outfile=BirdsTop20-eps-converted-to
+.pdf BirdsTop20.eps>
+(epstopdf)             \includegraphics on input line 430.
+Package epstopdf Info: Output file is already uptodate.
+ <BirdsTop20-eps-converted-to.pdf, id=70, 794.97pt x 614.295pt>
+File: BirdsTop20-eps-converted-to.pdf Graphic file (type pdf)
+
+<use BirdsTop20-eps-converted-to.pdf>
+Package pdftex.def Info: BirdsTop20-eps-converted-to.pdf used on input line 430
+.
+(pdftex.def)             Requested size: 357.7332pt x 276.43019pt.
+
+Overfull \hbox (10.27318pt too wide) in paragraph at lines 430--431
+ [][] 
  []
 
-[2] [3]
-Overfull \hbox (34.68536pt too wide) in alignment at lines 390--414
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (34.68536pt too wide) in alignment at lines 414--434
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (34.68536pt too wide) in alignment at lines 434--454
- [] [] [] [] [] [] [] 
- []
-
-[4]
-Overfull \hbox (34.68536pt too wide) in alignment at lines 454--474
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (34.68536pt too wide) in alignment at lines 474--477
- [] [] [] [] [] [] [] 
- []
-
-[5]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 481.
+[4] [5 <./BirdsTop20-eps-converted-to.pdf>]
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 480.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 481.
+(Font)              size <5> substituted on input line 480.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 481.
+(Font)              size <5> substituted on input line 480.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 481.
+(Font)              size <5> substituted on input line 480.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 481.
+(Font)              size <5> substituted on input line 480.
 
-[6] [7] (./paper1_jrss.bbl [8] [9]) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 537.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
- (./paper1_jrss.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 537.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7]
+
+Package natbib Warning: Citation `Freeman1979' on page 8 undefined on input lin
+e 513.
+
+[8] [9]
+Package epstopdf Info: Source file: <rawg30.eps>
+(epstopdf)                    date: 2017-07-23 11:40:20
+(epstopdf)                    size: 1938097 bytes
+(epstopdf)             Output file: <rawg30-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-27 16:38:56
+(epstopdf)                    size: 1532565 bytes
+(epstopdf)             Command: <epstopdf --outfile=rawg30-eps-converted-to.pdf
+ rawg30.eps>
+(epstopdf)             \includegraphics on input line 564.
+Package epstopdf Info: Output file is already uptodate.
+ <rawg30-eps-converted-to.pdf, id=143, 597.23125pt x 845.1575pt>
+File: rawg30-eps-converted-to.pdf Graphic file (type pdf)
+
+<use rawg30-eps-converted-to.pdf>
+Package pdftex.def Info: rawg30-eps-converted-to.pdf used on input line 564.
+(pdftex.def)             Requested size: 298.61488pt x 422.57771pt.
+ [10] [11 <./rawg30-eps-converted-to.pdf>]
+Overfull \hbox (5.51057pt too wide) in paragraph at lines 573--574
+\OT1/cmr/m/n/10.95 Least Tern and the en-dan-gered species Black-capped Pe-trel
+, GBHE, YCNH
+ []
+
+
+Overfull \hbox (0.77065pt too wide) in paragraph at lines 575--577
+\OT1/cmr/m/n/10.95 Tern and Least Tern. While we found $62$ con-di-tion-ally in
+-ter-re-lated marked
+ []
+
+
+Overfull \hbox (7.88297pt too wide) in paragraph at lines 575--577
+\OT1/cmr/m/n/10.95 PEEP, PESA, PISI, RBNU, REDH, RUDU, RUTU, SAGU, SATE, Uniden
+-
+ []
+
+
+Overfull \hbox (0.6591pt too wide) in paragraph at lines 575--577
+\OT1/cmr/m/n/10.95 Great or Lesser Black-backed Gull, UCAT, UNBI, UNFR, UNPE, U
+niden-
+ []
+
+
+Overfull \hbox (4.00497pt too wide) in paragraph at lines 575--577
+\OT1/cmr/m/n/10.95 Storm-petrel, WIPH, WODU, YCNH, YRWA, BRSP, BLKI, Black-capp
+ed
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Overfull \hbox (0.27904pt too wide) in paragraph at lines 580--583
+\OT1/cmr/m/n/10.95 BANS, UNWA, MYWA, WFSP, WHIM, GLGU, GOME, GREG, MODO,
+ []
+
+
+Overfull \hbox (5.60193pt too wide) in paragraph at lines 584--586
+\OT1/cmr/m/n/10.95 Loon, Dovekie, Great Black-backed Gull, AMGO, AMKE, AMOY, AM
+RO,
+ []
+
+
+Overfull \hbox (2.17863pt too wide) in paragraph at lines 584--586
+\OT1/cmr/m/n/10.95 OSPR, PAWA, PEEP, PESA, PISI, PUSA, RBNU REDH, RUDU, RUTU,
+ []
+
+
+Overfull \hbox (2.89468pt too wide) in paragraph at lines 587--591
+\OT1/cmr/m/n/10.95 RUTU, SAGU, SATE, Uniden-ti-fied Scaup, Po-ma-rine Jaeger, R
+ed-breasted
+ []
+
+
+Underfull \vbox (badness 4229) has occurred while \output is active []
+
+ [13]
+Package epstopdf Info: Source file: <rawg60.eps>
+(epstopdf)                    date: 2017-07-23 11:40:20
+(epstopdf)                    size: 1405704 bytes
+(epstopdf)             Output file: <rawg60-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-27 16:38:57
+(epstopdf)                    size: 1160523 bytes
+(epstopdf)             Command: <epstopdf --outfile=rawg60-eps-converted-to.pdf
+ rawg60.eps>
+(epstopdf)             \includegraphics on input line 604.
+Package epstopdf Info: Output file is already uptodate.
+
+<rawg60-eps-converted-to.pdf, id=290, 597.23125pt x 845.1575pt>
+File: rawg60-eps-converted-to.pdf Graphic file (type pdf)
+
+<use rawg60-eps-converted-to.pdf>
+Package pdftex.def Info: rawg60-eps-converted-to.pdf used on input line 604.
+(pdftex.def)             Requested size: 298.61488pt x 422.57771pt.
+
+Underfull \vbox (badness 1783) has occurred while \output is active []
+
+ [14]
+[15 <./rawg60-eps-converted-to.pdf>]
+Overfull \hbox (3.77675pt too wide) in paragraph at lines 621--625
+\OT1/cmr/m/n/10.95 RUDU, RUTU, RWBL, SAGU, SATE, SEPL, SESA, SOSP, UCAT, UNEI,
+ []
+
+[16]
+Overfull \hbox (61.74828pt too wide) in paragraph at lines 814--814
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 2519.40244pt on input line 814.
+
+Package epstopdf Info: Source file: <betweeng30.eps>
+(epstopdf)                    date: 2017-07-23 11:40:20
+(epstopdf)                    size: 1544418 bytes
+(epstopdf)             Output file: <betweeng30-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-27 16:38:58
+(epstopdf)                    size: 1262377 bytes
+(epstopdf)             Command: <epstopdf --outfile=betweeng30-eps-converted-to
+.pdf betweeng30.eps>
+(epstopdf)             \includegraphics on input line 822.
+Package epstopdf Info: Output file is already uptodate.
+<betweeng30-eps-converted-to.pdf, id=416, 597.23125pt x 845.1575pt>
+File: betweeng30-eps-converted-to.pdf Graphic file (type pdf)
+
+<use betweeng30-eps-converted-to.pdf>
+Package pdftex.def Info: betweeng30-eps-converted-to.pdf used on input line 822
+.
+(pdftex.def)             Requested size: 298.61488pt x 422.57771pt.
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 837--838
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 838--839
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 839--840
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 840--841
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 841--842
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 842--843
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 843--844
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[17] [18] [19 <./betweeng30-eps-converted-to.pdf>]
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 844--845
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 845--846
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 846--847
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 847--848
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 848--849
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 849--850
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 850--851
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 851--852
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 852--853
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 853--854
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 854--855
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 855--856
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 856--857
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 857--858
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 858--859
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 859--860
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 860--861
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 861--862
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 862--863
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 863--864
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 864--865
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 865--866
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 866--867
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 867--868
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 868--869
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 869--870
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 870--871
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 871--872
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 872--873
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 873--874
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 874--875
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 875--876
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 876--877
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 877--878
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 878--879
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 879--880
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 880--881
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 881--882
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 882--883
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 883--884
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 884--885
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 885--886
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 886--887
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 887--888
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 888--889
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 889--890
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 890--891
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 891--892
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 892--893
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 893--894
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 894--895
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 895--896
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 896--897
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 897--898
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 898--899
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 899--900
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 900--901
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 901--902
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 902--903
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 903--904
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 904--905
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 905--906
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 906--907
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 907--908
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 908--909
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 909--910
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 910--911
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 911--912
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 912--913
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 913--914
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 914--915
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 915--916
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 916--917
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 917--918
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 918--919
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 919--920
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 920--921
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 921--922
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 922--923
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 923--924
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 924--925
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 925--926
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 926--927
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 927--928
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 928--929
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 929--930
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 930--931
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 931--932
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 932--933
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 933--934
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 934--935
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 935--936
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 936--937
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 937--938
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 938--939
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 939--940
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 940--941
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 941--942
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 942--943
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 943--944
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 944--945
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 945--946
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 946--947
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 947--948
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 948--949
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 949--950
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 950--951
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 951--952
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 952--953
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 953--954
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 954--955
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 955--956
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 956--957
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 957--958
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 958--959
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 959--960
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 960--961
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 961--962
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 962--963
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 963--964
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 964--965
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 965--966
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 966--967
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 967--968
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 968--969
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 969--970
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 970--971
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 971--972
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 972--973
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 973--974
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 974--975
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 975--976
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 976--977
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 977--978
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 978--979
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 979--980
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 980--981
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 981--982
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 982--983
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 983--984
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 984--985
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 985--986
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 986--987
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 987--988
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 988--989
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 989--990
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 990--991
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 991--992
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 992--993
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 993--994
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 994--995
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 995--996
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 996--997
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 997--998
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.4638pt too wide) in paragraph at lines 998--999
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[25] [26]
+Overfull \hbox (13.89374pt too wide) in paragraph at lines 1059--1061
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Overfull \hbox (13.89374pt too wide) in paragraph at lines 2559--2561
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+[84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127]
+(./paper1_jrss.bbl [128] [129] [130]) [131]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3795.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3795.
+(./paper1_jrss.aux
+\statsocwidth@b=\dimen126
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3795.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3795.
+
 Package rerunfilecheck Info: File `paper1_jrss.out' has not changed.
 (rerunfilecheck)             Checksum: B1B9B73251267521E46E398FB4F94835;215.
 
@@ -461,32 +1864,36 @@ Package rerunfilecheck Info: File `paper1_jrss.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 537.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3795.
  ) 
 Here is how much of TeX's memory you used:
- 7012 strings out of 493014
- 99299 string characters out of 6133351
- 215718 words of memory out of 5000000
- 10434 multiletter control sequences out of 15000+600000
- 21053 words of font info for 58 fonts, out of 8000000 for 9000
+ 11777 strings out of 493014
+ 173033 string characters out of 6133351
+ 273633 words of memory out of 5000000
+ 12102 multiletter control sequences out of 15000+600000
+ 23324 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,6n,34p,1203b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,15n,34p,1288b,1630s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on paper1_jrss.pdf (10 pages, 149727 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/helvetic/uhvro8a.pfb>
+Output written on paper1_jrss.pdf (131 pages, 9682933 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4603 PDF objects out of 5155 (max. 8388607)
+ 4122 compressed objects within 42 object streams
+ 3095 named destinations out of 3580 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{24}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -8,11 +8,36 @@
 Andersen, M. (1992) Spatial analysis of two-species interactions.
 \newblock \textit{Oecologia}, \textbf{91}, 134--140.
 
+\bibitem[{Baddeley(2010)}]{Baddeley2010}
+Baddeley, A. (2010) \textit{Handbook of Spatial Statistics}, chap. Multivariate
+  and Marked Point Processes, 371--402.
+\newblock Chapman \& Hall/CRC Handbooks of Modern Statistical Methods. CRC
+  Press.
+
 \bibitem[{Balderama et~al.(2016)Balderama, Gardner and Reich}]{Balderama2016}
 Balderama, E., Gardner, B. and Reich, B.~J. (2016) {A spatial-temporal
   double-hurdle model for extremely over-dispersed avian count datatemporal
   double-hurdle model for extremely over-dispersed avian count data}.
 \newblock \textit{Spatial Statistics}, \textbf{18}, 263--275.
+
+\bibitem[{Borgatti and Everett(2006)}]{Borgatti2006}
+Borgatti, S.~P. and Everett, M.~G. (2006) A graph-theoretic perspective on
+  centrality.
+\newblock \textit{Social Networks}, \textbf{28}, 466 -- 484.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0378873305000833}.
+
+\bibitem[{Carrington et~al.(2005)Carrington, Scott and
+  Wasserman}]{Carrington2005}
+Carrington, P.~J., Scott, J. and Wasserman, S. (2005) \textit{Models and
+  methods in social network analysis}.
+\newblock Structural analysis in the social sciences. Cambridge (U.K.), New
+  York (N.Y.): Cambridge University Press.
+
+\bibitem[{Chiu et~al.(2013)Chiu, Stoyan, Kendall and Mecke}]{Chiu2013}
+Chiu, S.~N., Stoyan, D., Kendall, W.~S. and Mecke, J. (2013) \textit{Stochastic
+  Geometry and Its Applications}.
+\newblock John Wiley \& Sons, third edn.
 
 \bibitem[{Eckardt(2016{\natexlab{a}})}]{Eckardt2016}
 Eckardt, M. (2016{\natexlab{a}}) {Graphical modelling of multivariate spatial
@@ -29,6 +54,19 @@ Eckardt, M. (2016{\natexlab{a}}) {Graphical modelling of multivariate spatial
   processes with continuous marks: A graphical modelling approach.
 \newblock \textit{ArXiv e-prints~}.
 
+\bibitem[{Gather et~al.(2002)Gather, Imhoff and Fried}]{GatherImhoffFried2002}
+Gather, U., Imhoff, M. and Fried, R. (2002) Graphical models for multivariate
+  time series from intensive care monitoring.
+\newblock \textit{Statistics in Medicine}, \textbf{21}, 2685--2701.
+
+\bibitem[{Goldenberg et~al.(2010)Goldenberg, Zheng, Fienberg and
+  Airoldi}]{Goldenberg:EtAl:2010}
+Goldenberg, A., Zheng, A.~X., Fienberg, S.~E. and Airoldi, E.~M. (2010) A
+  survey of statistical network models.
+\newblock \textit{Foundations and Trends in Machine Learning}, \textbf{2},
+  129--233.
+\newblock \urlprefix\url{http://dx.doi.org/10.1561/2200000005}.
+
 \bibitem[{Goyert et~al.(2016)Goyert, Gardner, Sollmann, Veit, Gilbert, Connelly
   and Williams}]{Goyert2016}
 Goyert, H.~F., Gardner, B., Sollmann, R., Veit, R.~R., Gilbert, A.~T.,
@@ -43,16 +81,32 @@ Goyert, H.~F., Manne, L.~L. and Veit, R.~R. (2014) {Facilitative interactions
   dolphins}.
 \newblock \textit{Oikos}.
 
+\bibitem[{Illian et~al.(2008)Illian, Penttinen, Stoyan and Stoyan}]{Illian2008}
+Illian, J., Penttinen, A., Stoyan, H. and Stoyan, D. (2008) \textit{Statistical
+  Analysis and Modelling of Spatial Point Patterns}.
+\newblock John Wiley \& Sons, New York.
+
 \bibitem[{Jalilian et~al.(2015)Jalilian, Guan, Mateu and
   Waagepetersen}]{Jalilian2015}
 Jalilian, A., Guan, Y., Mateu, J. and Waagepetersen, R. (2015) {Multivariate
   product-shot-noise Cox point process models}.
 \newblock \textit{Biometrics}, \textbf{71}, 1022--1033.
 
+\bibitem[{Kolaczyk(2009)}]{Kolaczyk:2009}
+Kolaczyk, E. (2009) \textit{Statistical Analysis of Network Data: Methods and
+  Models.}
+\newblock Springer.
+
 \bibitem[{M{\o}ller and Waagepetersen(2016)}]{Moller2016}
 M{\o}ller, J. and Waagepetersen, R. (2016) Some recent developments in
   statistics for spatial point patterns.
 \newblock \textit{Annual Review of Statistics and Its Application}.
+
+\bibitem[{Newman and Girvan(2004)}]{Newman2004}
+Newman, M. E.~J. and Girvan, M. (2004) Finding and evaluating community
+  structure in networks.
+\newblock \textit{Physical Review E}, \textbf{69}, 026113.
+\newblock \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevE.69.026113}.
 
 \bibitem[{Nightingale et~al.(2015)Nightingale, Illian and
   King}]{Nightingale2015}
@@ -67,5 +121,27 @@ Sollmann, R., Gardner, B., Williams, K.~A., Gilbert, A.~T. and Veit, R.~R.
   (2016) A hierarchical distance sampling model to estimate abundance and
   covariate associations of species and communities.
 \newblock \textit{Methods in Ecology and Evolution}.
+
+\bibitem[{Stachowicz(2001)}]{Stachowicz2001}
+Stachowicz, J.~J. (2001) Mutualism, facilitation, and the structure of
+  ecological communities.
+\newblock \textit{AIBS Bulletin}, \textbf{51}, 235--246.
+
+\bibitem[{Stoyan and Stoyan(1994)}]{StoyanStoyan1994}
+Stoyan, D. and Stoyan, H. (1994) \textit{Fractals, Random Shapes, and Point
+  Fields : Methods of Geometrical Statistics}.
+\newblock Chichester, New York: Wiley.
+
+\bibitem[{Wiegand and Moloney(2013)}]{WiegandMoloney2013}
+Wiegand, T. and Moloney, K.~A. (2013) \textit{Handbook of Spatial Point-Pattern
+  Analysis in Ecology}.
+\newblock Chapman and Hall/CRC.
+
+\bibitem[{Winiarski et~al.(2014)Winiarski, Miller, Paton and
+  McWilliams}]{Winiarski2014}
+Winiarski, K.~J., Miller, D.~L., Paton, P.~W. and McWilliams, S.~R. (2014) A
+  spatial conservation prioritization approach for protecting marine birds
+  given proposed offshore wind energy development.
+\newblock \textit{Biological Conservation}, \textbf{169}, 79--88.
 
 \end{thebibliography}
